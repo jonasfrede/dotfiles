@@ -116,9 +116,9 @@ fi
 # Advanced directory creation
 function mkcd {
   if [ ! -n "$1" ]; then
-    echo "Entrez un nom pour ce dossier"
+    echo "Please put a name for the folder."
   elif [ -d $1 ]; then
-    echo "\`$1' existe déjà"
+    echo "\`$1' already exists."
   else
     mkdir $1 && cd $1
   fi
