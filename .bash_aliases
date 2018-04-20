@@ -44,3 +44,4 @@ alias ipscan='sudo arp-scan --localnet'
 
 # Funny commit messages
 alias funcommit='curl -s whatthecommit.com | sed -n "s/^<p>//p"'
+
