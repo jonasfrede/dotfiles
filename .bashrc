@@ -33,7 +33,7 @@ shopt -s checkwinsize
 # environment variables
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
-export PATH=$PATH:/root/.gem/ruby/2.4.0/bin
+export PATH=$PATH:~/.scripts
 
 # Prompt design
 # Default: PS1='[\u@\h: \W]\$ '
