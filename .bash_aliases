@@ -28,14 +28,6 @@ alias ...=' cd ../..'
 alias ....=' cd ../../..'
 alias .....=' cd ../../../..'
 
-# Making directories
-alias mkdir='mkdir -pv'
-
-mkcd () {
-  mkdir $1
-  cd $1
-}
-
 # Display my IP
 alias myip='curl http://ipecho.net/plain; echo'
 
