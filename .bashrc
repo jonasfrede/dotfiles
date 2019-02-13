@@ -31,9 +31,14 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # environment variables
-export VISUAL=/usr/bin/vim
-export EDITOR=/usr/bin/vim
-export PATH=$PATH:~/.scripts
+export VISUAL="/usr/bin/vim"
+export EDITOR="/usr/bin/vim"
+export PATH="${PATH}:~/.scripts"
+export PYTHONPATH="/usr/local/lib/python3.7/site-packages:/usr/local/lib/python2.7/site-packages:${PYTHONPATH}"
+export LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
+export DOCKER_HOST=tcp://127.0.0.1:2375
+export DISPLAY=:0.0
+export LIBGL_ALWAYS_INDIRECT=1
 
 # Prompt design
 # Default: PS1='[\u@\h: \W]\$ '
