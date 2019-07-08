@@ -5,7 +5,7 @@
 # simple program changes
 alias screenfetch='neofetch '
 alias python='python3 '
-
+alias code='vscodium '
 
 # If you forget to sudo
 alias please='sudo $(history -p !!)'
@@ -36,4 +36,3 @@ alias ipscan='sudo arp-scan --localnet'
 
 # Funny commit messages
 alias funcommit='curl -s whatthecommit.com | sed -n "s/^<p>//p"'
-
