@@ -33,7 +33,7 @@ shopt -s checkwinsize
 # environment variables
 export VISUAL="/usr/bin/vim"
 export EDITOR="/usr/bin/vim"
-export PATH="${PATH}:~/.scripts"
+export PATH="${PATH}:~/.scripts:~/.gem/ruby/2.6.0/bin"
 export PYTHONPATH="/usr/local/lib/python3.7/site-packages:/usr/local/lib/python2.7/site-packages:${PYTHONPATH}"
 export LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
 export DOCKER_HOST=tcp://127.0.0.1:2375
