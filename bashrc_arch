@@ -32,7 +32,8 @@ shopt -s checkwinsize
 export VISUAL="/usr/bin/vim"
 export EDITOR="/usr/bin/vim"
 
-export PATH="${PATH}:~/.scripts"
+# random scripts, jekyll, ...
+export PATH="${PATH}:~/.scripts:~/.gem/ruby/2.6.0/bin"
 
 
 # Prompt design
@@ -141,4 +142,3 @@ function extract {
     fi
 fi
 }
-
