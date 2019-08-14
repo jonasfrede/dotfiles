@@ -1,4 +1,4 @@
-# .dotfiles
+# dotfiles
 
 This is my small dotfile repository, first used together with the [Windows Subsystem for Linux (WSL)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux "Wikipedia Explanation for WSL"), but now mainly used for my laptop in combination with [Manjaro](https://manjaro.org/ "Manjaro Homepage") as well, so most files come from there.
 
