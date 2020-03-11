@@ -39,7 +39,6 @@ export EDITOR="/usr/bin/vim"
 # random scripts, jekyll, ...
 export PATH="${PATH}:~/.scripts:~/.gem/ruby/2.6.0/bin"
 
-
 # Prompt design
 # Default: PS1='[\u@\h: \W]\$ '
 # SIMPLE: '\[\033[01;32m\]\u\[\033[00m\]@\[\033[01;32m\]\h: \[\033[00;31m\]\W \$ \[\033[00m\]'
@@ -61,10 +60,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
+# exa (ls replacement) alias
+alias el='exa -alF'
 alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
