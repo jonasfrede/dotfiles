@@ -5,7 +5,9 @@
 # simple program changes
 alias screenfetch='neofetch '
 alias python='python3 '
-alias code='vscodium '
+
+# download and play random youtube video from watch later playlist
+alias watchlater='mpv --shuffle --ytdl-raw-options="cookies-from-browser=firefox,yes-playlist=" "https://youtube.com/playlist?list=WL"'
 
 # If you forget to sudo
 alias please='sudo $(history -p !!)'

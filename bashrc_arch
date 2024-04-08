@@ -4,6 +4,11 @@
 
 source /etc/profile
 
+# track most used directories
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
+# fly through bash history
+source /usr/share/doc/mcfly/mcfly.bash
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -35,9 +40,10 @@ shopt -s checkwinsize
 # environment variables
 export VISUAL="/usr/bin/vim"
 export EDITOR="/usr/bin/vim"
+export JULIA_NUM_THREADS=4
 
-# random scripts, jekyll, ...
-export PATH="${PATH}:~/.scripts:~/.gem/ruby/2.6.0/bin"
+# personal scripts, ...
+export PATH="${PATH}:~/.scripts"
 
 # Prompt design
 # Default: PS1='[\u@\h: \W]\$ '
@@ -144,3 +150,5 @@ function extract {
     fi
 fi
 }
+
+source /home/jonas/.config/broot/launcher/bash/br
