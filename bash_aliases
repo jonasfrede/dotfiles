@@ -3,7 +3,7 @@
 #
 
 # simple program changes
-alias screenfetch='neofetch '
+alias screenfetch='fastfetch '
 alias python='python3 '
 
 # download and play random youtube video from watch later playlist
