@@ -3,7 +3,7 @@
 #
 
 # simple program changes
-alias screenfetch='fastfetch '
+alias neofetch='fastfetch '
 alias python='python3 '
 
 # download and play random youtube video from watch later playlist
@@ -38,3 +38,7 @@ alias ipscan='sudo arp-scan --localnet'
 
 # Funny commit messages
 alias funcommit='curl -s whatthecommit.com | sed -n "s/^<p>//p"'
+
+# cleanup of unnecessary packages
+alias yc='yay -Rns $(yay -Qtdq)'
+
