@@ -4,6 +4,11 @@
 
 source /etc/profile
 
+# track most used directories
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
+# fly through bash history
+source /usr/share/doc/mcfly/mcfly.bash
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -33,14 +38,12 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # environment variables
-export VISUAL="/usr/bin/vim"
-export EDITOR="/usr/bin/vim"
+export VISUAL="/usr/bin/nvim"
+export EDITOR="/usr/bin/nvim"
+export JULIA_NUM_THREADS=4
+
+# personal scripts
 export PATH="${PATH}:~/.scripts"
-export PYTHONPATH="/usr/local/lib/python3.8/site-packages:${PYTHONPATH}"
-export LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
-export DOCKER_HOST=tcp://127.0.0.1:2375
-export DISPLAY=:0.0
-export LIBGL_ALWAYS_INDIRECT=1
 
 # Prompt design
 # Default: PS1='[\u@\h: \W]\$ '
@@ -63,10 +66,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+# exa (ls replacement) alias
+alias ll='exa -alF'
+alias l='ls -alF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -149,3 +151,4 @@ function extract {
 fi
 }
 
+source ~/.config/broot/launcher/bash/br
