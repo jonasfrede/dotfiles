@@ -37,7 +37,7 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias ipscan='sudo arp-scan --localnet'
 
 # Funny commit messages
-alias funcommit='curl -s whatthecommit.com | sed -n "s/^<p>//p"'
+alias funcommit='curl -s https://www.whatthecommit.com | sed -n "s/^<p>//p" | sed -n "s/<\/p>//p"'
 
 # cleanup of unnecessary packages
 alias yc='yay -Rns $(yay -Qtdq)'
