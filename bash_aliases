@@ -55,7 +55,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # exa (ls replacement) alias
-alias l='eza -alF --icons --git'
+alias ll='eza -alF --icons --git'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
