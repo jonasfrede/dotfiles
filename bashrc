@@ -41,6 +41,7 @@ shopt -s checkwinsize
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
 export JULIA_NUM_THREADS=4
+export LIBVIRT_DEFAULT_URI="qemu:///system"
 
 # personal scripts
 export PATH="${PATH}:~/.scripts"
