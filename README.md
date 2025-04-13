@@ -6,7 +6,19 @@ Both systems are based on [Arch Linux](https://www.archlinux.org/), but neither 
 
 Nowadays, I have switched to pure Arch (btw), so some dotfiles will probably follow in the future.
 
-## Installation
+## Dependencies
+
+- git
+- stow
+- make (optional)
+
+All dependencies can be installed via
+
+```bash
+pacman -S git stow make
+```
+
+## Usage
 
 This repository is currently designed to be cloned into your home directory, and then GNU Stow can be used to symlink all these dotfiles at once.
 
