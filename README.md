@@ -15,7 +15,7 @@ Nowadays, I have switched to pure Arch (btw), so some dotfiles will probably fol
 All dependencies can be installed via
 
 ```bash
-pacman -S git stow make
+sudo pacman -S git stow make
 ```
 
 ## Usage
