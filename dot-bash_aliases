@@ -40,7 +40,8 @@ alias ipscan='sudo arp-scan --localnet'
 # Funny commit messages
 alias funcommit='curl -s https://www.whatthecommit.com | sed -n "s/^<p>//p" | sed -n "s/<\/p>//p"'
 
-# cleanup of unnecessary packages
+# yay aliases: update everything and cleanup of unnecessary packages
+alias ys='yay -Syyu'
 alias yc='yay -Rns $(yay -Qtdq)'
 
 # enable color support of ls and also add handy aliases
@@ -58,6 +59,7 @@ fi
 # exa (ls replacement) alias
 alias ll='eza -alF --icons --git'
 
-# Add an "alert" alias for long running commands.  Use like so:
+# Add an "alert" alias for long running commands.
+# Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
