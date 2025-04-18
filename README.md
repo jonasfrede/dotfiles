@@ -11,12 +11,15 @@ Nowadays, I have switched to pure Arch (btw), so some dotfiles will probably fol
 - git
 - stow
 - make (optional)
+- yay (an AUR helper)
 
-All dependencies can be installed via
+All dependencies except for Yay can be installed via
 
 ```bash
 sudo pacman -S git stow make
 ```
+
+For instructions on Yay, please refer to [its git repository](https://github.com/Jguer/yay).
 
 ## Usage
 
