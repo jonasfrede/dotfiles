@@ -46,7 +46,7 @@ export LIBVIRT_DEFAULT_URI="qemu:///system"
 # personal scripts
 export PATH="${PATH}:~/.scripts:~/.local/bin"
 
-# Prompt design
+# Prompt design - TODO: To be replaced with starship
 # Default: PS1='[\u@\h: \W]\$ '
 # SIMPLE: '\[\033[01;32m\]\u\[\033[00m\]@\[\033[01;32m\]\h: \[\033[00;31m\]\W \$ \[\033[00m\]'
 if [ -n "$SSH_CONNECTION" ]; then
@@ -132,4 +132,11 @@ function extract {
 fi
 }
 
+# Load broot if available
 source ~/.config/broot/launcher/bash/br
+
+# Load fzf if available
+eval "$(fzf --bash)"
+
+# Starship prompt needs to be at the end of the file
+#eval "$(starship init bash)"
