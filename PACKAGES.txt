@@ -26,6 +26,7 @@ bemenu
 biber
 bleachbit
 blender
+blesh
 blueman
 bluez
 bluez-tools
@@ -45,6 +46,7 @@ ccache
 chafa
 cheese
 choose
+chromium
 clipman
 cmake
 cmatrix
@@ -59,6 +61,7 @@ coin-or-lemon
 coin-or-mp
 coin-or-osi
 colordiff
+cortile-git
 cowsay
 cpio
 cppcheck
@@ -75,8 +78,8 @@ curlie
 cython
 dart
 dart-sass
-davinci-resolve
 dcd
+deja-dup
 deno
 deskflow
 dfmt
@@ -107,6 +110,7 @@ duckdb-bin
 duf
 dust
 dwarffortress
+dysk
 ecos
 efibootmgr
 eigen
@@ -140,12 +144,12 @@ gamemode
 garcon
 gcc-rust
 gdb
-gdlauncher-bin
 geogebra
 ghc
 ghcup-hs-bin
 ghidra
 ghostscript
+ghostty
 gimp
 gimp-help-de
 git
@@ -257,6 +261,7 @@ mediainfo
 meld
 minecraft-launcher
 minisat
+mirro-rs
 mkinitcpio-firmware
 most
 mousepad
@@ -287,6 +292,7 @@ noto-fonts-extra
 ntfs-3g
 ntp
 numlockx
+nvidia-container-toolkit
 nvidia-open
 nvidia-settings
 obs-studio
@@ -295,6 +301,7 @@ octave
 odt2txt
 ogre
 ogre-next
+ollama
 ollama-cuda
 openbsd-netcat
 opencamlib
@@ -325,8 +332,10 @@ pacman-contrib
 pandoc-cli
 pandoc-crossref
 pandoc-plot
+papers
 papirus-folders-git
 pasystray
+patchelf
 pavucontrol
 pdf2svg
 pdftk
@@ -342,6 +351,7 @@ plymouth
 portfolio-performance-bin
 powerline
 powerline-fonts
+premake
 prismlauncher
 procs
 progress
@@ -351,6 +361,7 @@ pstoedit
 pv
 pyright
 python
+python-adblock
 python-cvxpy
 python-cylp
 python-fastparquet
@@ -364,6 +375,7 @@ python-pandas-datareader
 python-pip
 python-pipx
 python-pkgconfig
+python-playwright
 python-plotly
 python-protobuf
 python-pycryptodomex
@@ -377,9 +389,9 @@ python-secretstorage
 python-setuptools
 python-sqlalchemy
 python-tqdm
+python-uv
 python-virtualenv
 qemu-full
-qpdfview
 qpwgraph
 qtforkawesome
 r2ghidra
@@ -387,6 +399,7 @@ ranger
 raylib
 rdma-core
 redshift
+reflector
 remmina
 reptyr
 rhino
@@ -572,6 +585,7 @@ visual-studio-code-bin
 visualvm
 vkd3d
 vlc
+vlc-plugin-x264
 vorta
 vulkan-extra-layers
 vulkan-extra-tools
@@ -639,12 +653,12 @@ xfwm4
 xfwm4-themes
 xmlstarlet
 xorg-fonts-type1
+xorg-server-xephyr
 xorg-xgamma
 xorg-xwayland
 xournalpp
 yarn
 yay
-yay-debug
 yazi
 yq
 yt-dlp
