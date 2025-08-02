@@ -44,7 +44,7 @@ export JULIA_NUM_THREADS=4
 export LIBVIRT_DEFAULT_URI="qemu:///system"
 
 # personal scripts
-export PATH="${PATH}:~/.scripts:~/.local/bin"
+export PATH="${PATH}:~/.scripts:~/.local/bin:/sbin"
 
 # Prompt design - TODO: To be replaced with starship
 # Default: PS1='[\u@\h: \W]\$ '
