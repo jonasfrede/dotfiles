@@ -4,6 +4,7 @@ makefile
 
 \.git
 \.gitignore
+\.vscode
 
 ^/README.*
 ^/LICENSE.*

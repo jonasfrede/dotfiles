@@ -26,7 +26,17 @@ For instructions on Yay, please refer to [its git repository](https://github.com
 This repository is currently designed to be cloned into your home directory, and then GNU Stow can be used to symlink all these dotfiles at once.
 
 ```bash
-stow --verbose --dotfiles .
+	stow --verbose --dotfiles --restow .
 ```
 
-Alternatively, one can use the provided makefile, with either `make` or `make all`. To remove the symlinks, one can use `make delete` instead.
+Alternatively, one can use the provided makefile, with either `make` or `make all`. To remove the symlinks, one can use `make delete` instead. There is also `make install`, which installs all packages listed in `PACKAGES.txt` using bash and yay.
+
+## TODO
+
+- [ ] Add better autoinstallation script for Arch Linux
+- [ ] Add more distinctions for different target systems
+- [ ] Add .config folders for more programs
+- [ ] Add a script to automatically update the package list from the system
+- [ ] Add functionality (maybe via cron job or similar) to automatically update the packages from the system
+- [ ] Add a script to automatically backup the dotfiles (and maybe even the packages) to a remote repository in regular intervals
+- [ ] Add a script to automatically update the dotfiles from a remote repository regularly

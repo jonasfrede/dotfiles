@@ -1,8 +1,8 @@
 7zip
+aarch64-linux-gnu-gcc
 accountsservice
 afl++
 afl-utils
-alacritty
 amd-ucode
 android-file-transfer
 arc-gtk-theme-git
@@ -215,7 +215,6 @@ keychain
 kicad
 kicad-library
 kicad-library-3d
-kitty
 kompose
 kotlin
 ktlint
@@ -404,6 +403,7 @@ remmina
 reptyr
 rhino
 ripgrep-all
+rpi-imager
 rstudio-desktop-bin
 rsync
 rubiks
@@ -516,7 +516,6 @@ ttf-fantasque-nerd
 ttf-fira-code
 ttf-fira-sans
 ttf-firacode-nerd
-ttf-font-awesome
 ttf-go-nerd
 ttf-gohu-nerd
 ttf-hack
@@ -597,12 +596,12 @@ vulkan-validation-layers
 vulkan-virtio
 w3m
 wasm-pack
-wezterm
 wget
 wikiman
 wine
 wine-mono
 winetricks
+woff2-font-awesome
 wt
 xclicker
 xclip
