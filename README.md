@@ -34,7 +34,7 @@ Alternatively, one can use the provided makefile, with either `make` or `make al
 ## TODO
 
 - [ ] Add better autoinstallation script for Arch Linux
-- [ ] Add more distinctions for different target systems
+- [ ] Add more distinctions for different target systems (e.g. laptop, desktop, raspberry pi, etc.), possibly via branches or tags
 - [ ] Add .config folders for more programs
 - [ ] Add a script to automatically update the package list from the system
 - [ ] Add functionality (maybe via cron job or similar) to automatically update the packages from the system
