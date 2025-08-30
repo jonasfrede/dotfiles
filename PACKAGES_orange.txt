@@ -1,6 +1,8 @@
 7zip
+a2jmidid
 aarch64-linux-gnu-gcc
 accountsservice
+adobe-source-code-pro-fonts
 afl++
 afl-utils
 amd-ucode
@@ -116,6 +118,7 @@ efibootmgr
 eigen
 elinks
 elixir
+emacs
 emscripten
 espeak-ng
 exo
@@ -322,6 +325,7 @@ otf-firamono-nerd
 otf-geist-mono-nerd
 otf-hasklig-nerd
 otf-hermit-nerd
+otf-libertinus
 otf-monaspace-nerd
 otf-opendyslexic-nerd
 otf-overpass-nerd
@@ -494,6 +498,7 @@ thunar-volman
 thunderbird
 thunderbird-i18n-de
 timeshift
+tinymist
 tmux-nord-theme
 traceroute
 trash-cli
@@ -565,6 +570,7 @@ tumbler
 tuned
 typescript
 typescript-language-server
+typst
 ueberzug
 unrar
 up
@@ -656,6 +662,8 @@ xorg-server-xephyr
 xorg-xgamma
 xorg-xwayland
 xournalpp
+yabridge
+yabridgectl
 yarn
 yay
 yazi
