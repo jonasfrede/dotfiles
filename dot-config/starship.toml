@@ -74,7 +74,7 @@ disabled = false
 show_always = true
 style_user = "bg:red fg:crust"
 style_root = "bg:red fg:crust"
-format = '[ $user ]($style)'
+format = "[ $user ]($style)"
 disabled = false
 
 # An alternative to the username module which displays a symbol that
@@ -126,15 +126,15 @@ style = "bg:peach fg:crust"
 [git_branch]
 symbol = ""
 style = "bg:yellow"
-format = '[[ $symbol $branch(:$remote_branch) ](fg:crust bg:yellow)]($style)'
+format = "[[ $symbol $branch(:$remote_branch) ](fg:crust bg:yellow)]($style)"
 
 [git_status]
 style = "bg:yellow"
-format = '[[($all_status$ahead_behind)](fg:crust bg:yellow)]($style)'
+format = "[[($all_status$ahead_behind)](fg:crust bg:yellow)]($style)"
 
 [git_commit]
 style = "bg:yellow"
-format = '[[(($hash$tag)](fg:crust bg:yellow)]($style)'
+format = "[[(($hash$tag)](fg:crust bg:yellow)]($style)"
 disabled = true
 
 [git_metrics]
@@ -145,7 +145,7 @@ disabled = true
 
 [git_state]
 style = "bg:yellow"
-format = '[[ $state( $progress_current/$progress_total)](fg:crust bg:yellow)]($style)'
+format = "[[ $state( $progress_current/$progress_total)](fg:crust bg:yellow)]($style)"
 disabled = true
 
 
@@ -168,82 +168,82 @@ style = "bg:yellow fg:crust"
 [c]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [cpp]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [elixir]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [elm]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [gradle]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [julia]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [nim]
 symbol = "󰆥"
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [scala]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [rust]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [golang]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [nodejs]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [php]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [java]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [kotlin]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [haskell]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [rlang]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [python]
 symbol = ""
@@ -257,25 +257,25 @@ format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 [docker_context]
 symbol = ""
 style = "fg:crust bg:sapphire"
-format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
+format = "[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)"
 
 [conda]
 symbol = ""
 style = "fg:crust bg:sapphire"
-format = '[ $symbol$environment ]($style)'
+format = "[[ $symbol$environment ](fg:crust bg:sapphire)]($style)"
 ignore_base = false
 
 [package]
 disabled = false
 style = "fg:crust bg:sapphire"
-format = "[ $symbol$version ]($style) "
+format = "[[ $symbol$version ](fg:crust bg:sapphire)]($style)"
 display_private = true
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:lavender"
-format = '[[  $time ](fg:crust bg:lavender)]($style)'
+format = "[[  $time ](fg:crust bg:lavender)]($style)"
 
 # Output the command duration
 [cmd_duration]
@@ -294,7 +294,7 @@ full_symbol = "🔋"
 
 [[battery.display]]
 threshold = 10
-style = 'red'
+style = "red"
 
 
 
@@ -302,12 +302,12 @@ style = 'red'
 
 [character]
 disabled = false
-success_symbol = '[❯](bold fg:green)'
-error_symbol = '[❯](bold fg:red)'
-vimcmd_symbol = '[❮](bold fg:green)'
-vimcmd_replace_one_symbol = '[❮](bold fg:lavender)'
-vimcmd_replace_symbol = '[❮](bold fg:lavender)'
-vimcmd_visual_symbol = '[❮](bold fg:yellow)'
+success_symbol = "[❯](bold fg:green)"
+error_symbol = "[❯](bold fg:red)"
+vimcmd_symbol = "[❮](bold fg:green)"
+vimcmd_replace_one_symbol = "[❮](bold fg:lavender)"
+vimcmd_replace_symbol = "[❮](bold fg:lavender)"
+vimcmd_visual_symbol = "[❮](bold fg:yellow)"
 
 
 
