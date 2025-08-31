@@ -1,0 +1,185 @@
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "padding": {
+            "top": 1
+        }
+    },
+    "display": {
+        "separator": " 󰑃  "
+    },
+    "modules": [
+        "break",
+        {
+            "type": "title",
+            "key": "󰌢 SYSTEM",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├󰻠",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰻑",
+            "format": "{2}",
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "│ ├󰍹",
+            "keyColor": "green",
+            "compactType": "original-with-refresh-rate"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├󰾆",
+            "keyColor": "green",
+            "percent": {
+                "green": 50,
+                "yellow": 80,
+                "type": 0
+            }
+        },
+        {
+            "type": "swap",
+            "key": "│ ├󰓡",
+            "keyColor": "green",
+            "percent": {
+                "green": 50,
+                "yellow": 80,
+                "type": 0
+            }
+        },
+        {
+            "type": "disk",
+            "key": "│ ├",
+            "keyColor": "green",
+            "showRegular": true,
+            "showExternal": true,
+            "showHidden": false,
+            "showSubvolumes": false,
+            "showReadOnly": true,
+            "showUnknown": false,
+            "folders": "",
+            "hideFolders": "/efi:/boot:/boot/efi:/boot/firmware",
+            "hideFS": "",
+            "useAvailable": false,
+            "percent": {
+                "green": 50,
+                "yellow": 80,
+                "type": 0
+        }
+        },
+        {
+            "type": "uptime",
+            "key": "│ ├󰅐",
+            "keyColor": "green"
+        },
+        {
+            "type": "localip",
+            "key": "│ └󰩟",
+            "keyColor": "green",
+            "showIpv4": true,
+            "showIpv6": false,
+            "showMac": false,
+            "showLoop": false,
+            "showPrefixLen": true,
+            "showMtu": false,
+            "showSpeed": false,
+            "showFlags": false,
+            "compact": false,
+            "defaultRouteOnly": true,
+            "showAllIps": false,
+            "namePrefix": ""
+        },
+        {
+            "type": "os",
+            "key": " DISTRO",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├󰏖",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "command",
+            "key": "│ ├",
+            "keyColor": "yellow",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "shell",
+            "key": "│ └",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "wm",
+            "key": " DE/WM",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├󰉼",
+            "keyColor": "blue"
+        },
+        {
+            "type": "icons",
+            "key": "│ ├󰀻",
+            "keyColor": "blue"
+        },
+        {
+            "type": "cursor",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminalfont",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminal",
+            "key": "│ └",
+            "keyColor": "blue"
+        },
+        {
+            "type": "sound",
+            "key": " AUDIO",
+            "format": "{2}",
+            "keyColor": "red"
+        },
+        {
+            "type": "player",
+            "key": "│ ├󰥠",
+            "keyColor": "red"
+        },
+        {
+            "type": "media",
+            "key": "│ └󰝚",
+            "keyColor": "red"
+        },
+        {
+            "type": "colors",
+            "key": " COLORS",
+            "keyColor": "black",
+            "symbol": "block",
+            "paddingLeft": 0,
+            "block": {
+                "width": 3,
+                "range": [
+                    0,
+                    7
+                ]
+            }
+        }
+    ]
+}
