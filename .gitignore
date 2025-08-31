@@ -1,4 +1,4 @@
 .vscode
 lazy-lock.json
-dot-config/btop/themes
-dot-config/yazi/flavors
+dot-config/btop/themes/*
+dot-config/yazi/flavors/*
