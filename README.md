@@ -32,7 +32,7 @@ cd dotfiles
 stow --verbose --dotfiles --restow .
 ```
 
-Alternatively, one can use the provided makefile, with either `make` or `make all`. To remove the symlinks, one can use `make delete` instead. There is also `make install`, which installs all packages listed in `PACKAGES.txt` using bash and yay.
+Alternatively, one can use the provided makefile, with either `make` or `make all`. To remove the symlinks, one can use `make delete` instead. There is also `make install`, which installs all packages listed in `PACKAGES_${host}.txt` using bash and yay.
 
 ## TODO
 
