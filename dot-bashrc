@@ -46,7 +46,7 @@ export LIBVIRT_DEFAULT_URI="qemu:///system"
 # personal scripts
 export PATH="${PATH}:~/.scripts:~/.local/bin:/sbin"
 
-# Prompt design - TODO: To be replaced with starship
+# Prompt design - As a fallback if starship fails
 # Default: PS1='[\u@\h: \W]\$ '
 # SIMPLE: '\[\033[01;32m\]\u\[\033[00m\]@\[\033[01;32m\]\h: \[\033[00;31m\]\W \$ \[\033[00m\]'
 if [ -n "$SSH_CONNECTION" ]; then
@@ -132,15 +132,6 @@ function extract {
 fi
 }
 
-# Load broot if available
-source ~/.config/broot/launcher/bash/br
-
-# Load fzf if available
-eval "$(fzf --bash)"
-
-# Starship prompt needs to be at the end of the file
-#eval "$(starship init bash)"
-
 # Run PADD on Raspberry Pi if available and if we’re on the PiTFT screen (ssh is xterm)
 if [[ $(uname -m) == arm* ]]; then
   if [ -z "$SSH_CLIENT" ] || [ -z "$SSH_TTY" ]; then
@@ -151,3 +142,12 @@ if [[ $(uname -m) == arm* ]]; then
     done
   fi
 fi
+
+# Load broot if available
+source ~/.config/broot/launcher/bash/br
+
+# Load fzf if available
+eval "$(fzf --bash)"
+
+# Starship prompt needs to be at the end of the file
+eval "$(starship init bash)"
