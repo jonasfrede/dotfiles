@@ -57,3 +57,5 @@ font-size = 11
 
 shell-integration-features = no-cursor,no-title
 cursor-style = block
+
+background-opacity = 0.69
