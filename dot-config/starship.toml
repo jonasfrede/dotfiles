@@ -46,9 +46,9 @@ $conda\
 $docker_context\
 [▒](fg:sapphire bg:lavender)\
 $time\
+$cmd_duration\
 $battery\
 [█▓▒░](fg:lavender)\
-$cmd_duration\
 $line_break\
 $character
 """
@@ -63,6 +63,39 @@ symbol = " "
 # Disable the line break between the first and second prompt lines
 [line_break]
 disabled = false
+
+
+
+# --- Basic Modules ---
+
+# You can also replace your username with a neat symbol like  or disable this
+# and use the os module below
+[username]
+show_always = true
+style_user = "bg:red fg:crust"
+style_root = "bg:red fg:crust"
+format = '[ $user ]($style)'
+disabled = false
+
+# An alternative to the username module which displays a symbol that
+# represents the current operating system
+[os]
+disabled = false
+style = "bg:red fg:crust"
+
+[os.symbols]
+Windows = ""
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Android = ""
+Arch = "󰣇"
+Debian = "󰣚"
 
 # Customize the format of the working directory
 [directory]
@@ -85,6 +118,8 @@ style = "bg:peach fg:crust"
 # will not be replaced, because "Documents" was already substituted before.
 # So either put "Important Documents" before "Documents" or use the substituted version:
 # "Important 󰈙 " = " 󰈙 "
+
+
 
 # --- Git Modules ---
 
@@ -113,6 +148,8 @@ style = "bg:yellow"
 format = '[[ $state( $progress_current/$progress_total)](fg:crust bg:yellow)]($style)'
 disabled = true
 
+
+
 # --- Custom Modules ---
 
 # Output the current git config email address
@@ -123,6 +160,8 @@ format = "[$symbol(  $output) ]($style)"
 # Only when inside git repository
 when = "git rev-parse --is-inside-work-tree >/dev/null 2>&1"
 style = "bg:yellow fg:crust"
+
+
 
 # --- Language Version Modules ---
 
@@ -211,6 +250,8 @@ symbol = ""
 style = "bg:green"
 format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 
+
+
 # --- Other Useful Modules ---
 
 [docker_context]
@@ -255,34 +296,9 @@ full_symbol = "🔋"
 threshold = 10
 style = 'red'
 
-# You can also replace your username with a neat symbol like  or disable this
-# and use the os module below
-[username]
-show_always = true
-style_user = "bg:red fg:crust"
-style_root = "bg:red fg:crust"
-format = '[ $user ]($style)'
-disabled = false
 
-# An alternative to the username module which displays a symbol that
-# represents the current operating system
-[os]
-disabled = false
-style = "bg:red fg:crust"
 
-[os.symbols]
-Windows = ""
-Ubuntu = "󰕈"
-SUSE = ""
-Raspbian = "󰐿"
-Manjaro = ""
-Linux = "󰌽"
-Gentoo = "󰣨"
-Fedora = "󰣛"
-Alpine = ""
-Android = ""
-Arch = "󰣇"
-Debian = "󰣚"
+# --- Prompt Character ---
 
 [character]
 disabled = false
@@ -292,6 +308,8 @@ vimcmd_symbol = '[❮](bold fg:green)'
 vimcmd_replace_one_symbol = '[❮](bold fg:lavender)'
 vimcmd_replace_symbol = '[❮](bold fg:lavender)'
 vimcmd_visual_symbol = '[❮](bold fg:yellow)'
+
+
 
 # --- Color Palettes ---
 
