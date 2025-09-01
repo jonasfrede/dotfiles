@@ -27,19 +27,19 @@ $c\
 $cpp\
 $elixir\
 $elm\
-$gradle\
-$julia\
-$nim\
-$scala\
-$rust\
 $golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$kotlin\
+$nim\
 $nodejs\
 $php\
-$java\
-$kotlin\
-$haskell\
-$rlang\
 $python\
+$rlang\
+$rust\
+$scala\
 [▒](fg:green bg:sapphire)\
 $package\
 $conda\
@@ -185,8 +185,23 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[golang]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [gradle]
 symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[haskell]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[java]
+symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -195,23 +210,13 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[kotlin]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [nim]
 symbol = "󰆥"
-style = "bg:green"
-format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
-
-[scala]
-symbol = ""
-style = "bg:green"
-format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
-
-[rust]
-symbol = ""
-style = "bg:green"
-format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
-
-[golang]
-symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -225,31 +230,25 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
-[java]
-symbol = ""
+[python]
+symbol = ""
 style = "bg:green"
-format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
-
-[kotlin]
-symbol = ""
-style = "bg:green"
-format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
-
-[haskell]
-symbol = ""
-style = "bg:green"
-format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 
 [rlang]
 symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
-[python]
-symbol = ""
+[rust]
+symbol = ""
 style = "bg:green"
-format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[scala]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 
 # --- Other Useful Modules ---
@@ -283,7 +282,7 @@ disabled = false
 show_milliseconds = true
 style = "fg:crust bg:lavender"
 format = "[[  $duration ](fg:crust bg:lavender)]($style)"
-show_notifications = true
+show_notifications = false
 
 # Customize the battery indicator
 [battery]
