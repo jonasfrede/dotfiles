@@ -24,6 +24,7 @@ $git_state\
 ${custom.git_config_email}\
 [▒](fg:yellow bg:green)\
 $c\
+$cobol\
 $cpp\
 $elixir\
 $elm\
@@ -33,22 +34,25 @@ $haskell\
 $java\
 $julia\
 $kotlin\
+$lua\
 $nim\
 $nodejs\
+$odin\
 $php\
 $python\
 $rlang\
 $rust\
 $scala\
 [▒](fg:green bg:sapphire)\
-$package\
+$cmake\
 $conda\
 $docker_context\
+$package\
 [▒](fg:sapphire bg:lavender)\
 $time\
 $cmd_duration\
 $battery\
-[█▓▒░](fg:lavender)\
+[█▓▒░](lavender)\
 $line_break\
 $character
 """
@@ -170,6 +174,11 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[cobol]
+symbol = "⚙️"
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [cpp]
 symbol = ""
 style = "bg:green"
@@ -215,6 +224,11 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[lua]
+symbol = "󰢱"
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [nim]
 symbol = "󰆥"
 style = "bg:green"
@@ -222,6 +236,11 @@ format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [nodejs]
 symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[odin]
+symbol = "Ø"
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -253,16 +272,22 @@ format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 # --- Other Useful Modules ---
 
-[docker_context]
-symbol = ""
+[cmake]
+disabled = false
+symbol = ""
 style = "fg:crust bg:sapphire"
-format = "[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)"
+format = "[[ $symbol$version ](fg:crust bg:sapphire)]($style)"
 
 [conda]
 symbol = ""
 style = "fg:crust bg:sapphire"
 format = "[[ $symbol$environment ](fg:crust bg:sapphire)]($style)"
 ignore_base = false
+
+[docker_context]
+symbol = ""
+style = "fg:crust bg:sapphire"
+format = "[[ $symbol($context) ](fg:crust bg:sapphire)]($style)"
 
 [package]
 disabled = false
