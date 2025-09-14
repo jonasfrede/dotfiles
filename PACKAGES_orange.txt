@@ -29,6 +29,7 @@ biber
 bleachbit
 blender
 blesh
+blueberry
 blueman
 bluez
 bluez-tools
@@ -40,7 +41,6 @@ brother-dcpj315w
 brscan3
 btop
 btrfs-progs
-byobu
 caddy
 catfish
 catppuccin-cursors-mocha
@@ -75,6 +75,7 @@ cronie
 csfml
 cuda
 cups
+cups-browsed
 cups-pdf
 curlie
 cython
@@ -121,6 +122,7 @@ elixir
 emacs
 emscripten
 espeak-ng
+evince
 exo
 extra-cmake-modules
 eza
@@ -184,9 +186,11 @@ gst-plugins-ugly
 gtk-theme-solarc-git
 guestfs-tools
 gufw
+gum
 gvfs
 gvfs-dnssd
 gvfs-mtp
+gvfs-smb
 handbrake
 haskell-base-prelude
 helm
@@ -194,7 +198,6 @@ helmfile
 highlight
 highs
 hlint
-htop
 httpie
 hyperfine
 iaito
@@ -224,6 +227,7 @@ ktlint
 kubeadm
 kubectl
 labwc
+lazydocker
 lazygit
 ldc
 lean
@@ -239,6 +243,7 @@ libguestfs
 liblphobos
 libphobos
 libportal-gtk4
+libqalculate
 libreoffice-fresh
 libreoffice-fresh-de
 libultrahdr
@@ -264,6 +269,7 @@ meld
 minecraft-launcher
 minisat
 mirro-rs
+mise
 mkinitcpio-firmware
 most
 mousepad
@@ -331,11 +337,11 @@ otf-opendyslexic-nerd
 otf-overpass-nerd
 otf-stix
 otf-texgyre-pagella-math
+otf-vollkorn
 pacman-contrib
 pandoc-cli
 pandoc-crossref
 pandoc-plot
-papers
 papirus-folders-git
 pasystray
 patchelf
@@ -344,11 +350,13 @@ pdf2svg
 pdftk
 perl-image-exiftool
 petsc-git
+pinta
 piper
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pipewire-zeroconf
+playerctl
 plocate
 plymouth
 portfolio-performance-bin
@@ -394,6 +402,7 @@ python-sqlalchemy
 python-tqdm
 python-uv
 python-virtualenv
+qalculate-gtk
 qemu-full
 qpwgraph
 qtforkawesome
@@ -428,9 +437,11 @@ seafile
 seafile-client
 seahorse
 shotcut
+signal-desktop
 solaar
 speech-dispatcher
 spotify
+sqlc
 sshfs
 starship
 steam
@@ -440,6 +451,7 @@ sunvox
 swtpm
 syncthing
 syncthingtray
+system-config-printer
 systemtap
 ta-lib
 tealdeer
@@ -603,10 +615,12 @@ vulkan-virtio
 w3m
 wasm-pack
 wget
+whois
 wikiman
 wine
 wine-mono
 winetricks
+wiremix
 woff2-font-awesome
 wt
 xclicker
@@ -671,6 +685,7 @@ yq
 yt-dlp
 z
 z3
+zen-browser-bin
 zig
 zls
 zoom
