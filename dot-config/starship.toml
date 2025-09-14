@@ -23,31 +23,54 @@ $git_metrics\
 $git_state\
 ${custom.git_config_email}\
 [▒](fg:yellow bg:green)\
+$bun\
 $c\
 $cobol\
 $cpp\
+$crystal\
+$dart\
+$deno\
+$dotnet\
 $elixir\
 $elm\
+$erlang\
+$fennel\
+$gleam\
 $golang\
 $gradle\
 $haskell\
+$haxe\
 $java\
 $julia\
 $kotlin\
 $lua\
 $nim\
 $nodejs\
+$ocaml\
 $odin\
+$perl\
 $php\
+$purescript\
 $python\
+$quarto\
+$raku\
+$red\
 $rlang\
+$ruby\
 $rust\
 $scala\
+$swift\
+$typst\
+$vlang\
+$zig\
 [▒](fg:green bg:sapphire)\
 $cmake\
 $conda\
 $docker_context\
+$helm\
+$kubernetes\
 $package\
+$terraform\
 [▒](fg:sapphire bg:lavender)\
 $time\
 $cmd_duration\
@@ -60,7 +83,7 @@ $character
 # Use the Catppuccin Mocha color palette
 palette = "catppuccin_mocha"
 
-# Fill character (empty space) between the left and right prompt
+# Fill character (empty space) between modules, if needed
 [fill]
 symbol = " "
 
@@ -68,6 +91,22 @@ symbol = " "
 [line_break]
 disabled = false
 
+
+
+# --- unused modules ---
+
+# [env_var]
+# [hostname]
+# [jobs]
+# [localip]
+# [memory_usage]
+# [mise]
+# [pixi]
+# [shell]
+# [shlvl]
+# [status]
+# [sudo]
+# [vcsh]
 
 
 # --- Basic Modules ---
@@ -167,7 +206,12 @@ style = "bg:yellow fg:crust"
 
 
 
-# --- Language Version Modules ---
+# --- Language & Runtime Version Modules ---
+
+[bun]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [c]
 symbol = ""
@@ -184,6 +228,26 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[crystal]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[dart]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[deno]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[dotnet]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [elixir]
 symbol = ""
 style = "bg:green"
@@ -194,8 +258,23 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[erlang]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[fennel]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[gleam]
+symbol = "󰦥"
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [golang]
-symbol = ""
+symbol = "󰟓"
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -206,6 +285,11 @@ format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [haskell]
 symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[haxe]
+symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -239,8 +323,18 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[ocaml]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [odin]
 symbol = "Ø"
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[perl]
+symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -249,13 +343,38 @@ symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
+[purescript]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [python]
 symbol = ""
 style = "bg:green"
 format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 
+[quarto]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[raku]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[red]
+symbol = "󱥒"
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
 [rlang]
 symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[ruby]
+symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -266,6 +385,26 @@ format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
 [scala]
 symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[swift]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[typst]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[vlang]
+symbol = ""
+style = "bg:green"
+format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
+
+[zig]
+symbol = ""
 style = "bg:green"
 format = "[[ $symbol( $version) ](fg:crust bg:green)]($style)"
 
@@ -289,11 +428,30 @@ symbol = ""
 style = "fg:crust bg:sapphire"
 format = "[[ $symbol($context) ](fg:crust bg:sapphire)]($style)"
 
+[helm]
+symbol = ""
+style = "fg:crust bg:sapphire"
+format = "[[ $symbol$version ](fg:crust bg:sapphire)]($style)"
+
+[kubernetes]
+symbol = ""
+style = "fg:crust bg:sapphire"
+format = "[[ $symbol($context) ](fg:crust bg:sapphire)]($style)"
+
 [package]
 disabled = false
 style = "fg:crust bg:sapphire"
 format = "[[ $symbol$version ](fg:crust bg:sapphire)]($style)"
 display_private = true
+
+[terraform]
+symbol = ""
+style = "fg:crust bg:sapphire"
+format = "[[ $symbol$version ](fg:crust bg:sapphire)]($style)"
+
+
+
+# --- Timing Modules ---
 
 [time]
 disabled = false
@@ -306,7 +464,7 @@ format = "[[  $time ](fg:crust bg:lavender)]($style)"
 disabled = false
 show_milliseconds = true
 style = "fg:crust bg:lavender"
-format = "[[  $duration ](fg:crust bg:lavender)]($style)"
+format = "[[ 󱎫 $duration ](fg:crust bg:lavender)]($style)"
 show_notifications = false
 
 # Customize the battery indicator
@@ -319,6 +477,82 @@ full_symbol = "🔋"
 [[battery.display]]
 threshold = 10
 style = "red"
+
+
+
+# --- Disabled Modules ---
+
+[aws]
+disabled = true
+
+[azure]
+disabled = true
+
+[buf]
+disabled = true
+
+[container]
+disabled = true
+
+[daml]
+disabled = true
+
+[direnv]
+disabled = true
+
+[fossil_branch]
+disabled = true
+
+[fossil_metrics]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[guix_shell]
+disabled = true
+
+[meson]
+disabled = true
+
+[hg_branch]
+disabled = true
+
+[mojo]
+disabled = true
+
+[nats]
+disabled = true
+
+[netns]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[opa]
+disabled = true
+
+[openstack]
+disabled = true
+
+[pijul_channel]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[singularity]
+disabled = true
+
+[solidity]
+disabled = true
+
+[spack]
+disabled = true
+
+[vagrant]
+disabled = true
 
 
 
