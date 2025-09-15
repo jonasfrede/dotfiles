@@ -29,7 +29,6 @@ biber
 bleachbit
 blender
 blesh
-blueberry
 blueman
 bluez
 bluez-tools
@@ -211,6 +210,7 @@ ipe
 iptables-nft
 ipython
 jabref
+jbig2enc
 jdk-openjdk
 julia
 jupyter-notebook
@@ -305,6 +305,7 @@ nvidia-open
 nvidia-settings
 obs-studio
 obsidian
+ocrmypdf
 octave
 odt2txt
 ogre
@@ -347,6 +348,7 @@ pasystray
 patchelf
 pavucontrol
 pdf2svg
+pdfarranger
 pdftk
 perl-image-exiftool
 petsc-git
@@ -459,6 +461,11 @@ tenacity
 tensorboard
 tensorflow
 terminus-font
+tesseract
+tesseract-data-deu
+tesseract-data-deu_frak
+tesseract-data-eng
+tesseract-data-frk
 tex-fmt
 tex-gyre-fonts
 tex-gyre-math-fonts
