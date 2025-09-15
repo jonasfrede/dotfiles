@@ -383,6 +383,7 @@ seahorse
 sfml
 solaar
 sshfs
+starship
 steam
 stow
 stp
