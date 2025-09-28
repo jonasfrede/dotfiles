@@ -4,8 +4,14 @@
 
 source /etc/profile
 
+# Ghostty shell integration for Bash
+if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
+    builtin source "${GHOSTTY_RESOURCES_DIR}/shell-integration/bash/ghostty.bash"
+fi
+
 # track most used directories
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
+
 # fly through bash history
 source /usr/share/doc/mcfly/mcfly.bash
 
