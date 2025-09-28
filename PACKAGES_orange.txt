@@ -266,6 +266,7 @@ mapnik
 mcfly
 mediainfo
 meld
+meson
 minecraft-launcher
 minisat
 mirro-rs
@@ -407,6 +408,8 @@ python-virtualenv
 qalculate-gtk
 qemu-full
 qpwgraph
+qt5-remoteobjects
+qt5-webengine
 qtforkawesome
 r2ghidra
 ranger
@@ -418,6 +421,7 @@ remmina
 reptyr
 rhino
 ripgrep-all
+rofi
 rpi-imager
 rstudio-desktop-bin
 rsync
@@ -613,6 +617,7 @@ vlc-plugin-x264
 vorta
 vulkan-extra-layers
 vulkan-extra-tools
+vulkan-headers
 vulkan-html-docs
 vulkan-mesa-layers
 vulkan-tools
@@ -636,7 +641,6 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-xapp
 xfburn
-xfce4-appfinder
 xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
@@ -658,7 +662,6 @@ xfce4-places-plugin
 xfce4-power-manager
 xfce4-pulseaudio-plugin
 xfce4-screensaver
-xfce4-screenshooter
 xfce4-sensors-plugin
 xfce4-session
 xfce4-settings
