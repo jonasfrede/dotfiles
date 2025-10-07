@@ -163,6 +163,10 @@ vim.opt.confirm = true
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
+vim.keymap.set({ 'n', 'v' }, '<leader>p', '\"_dP', { desc = '[P]aste over currently selected text without yanking it' })
+vim.keymap.set({ 'n', 'v' }, '<leader>y', '\"+y', { desc = '[Y]ank to system clipboard' })
+vim.keymap.set({ 'n', 'v' }, '<leader>Y', '\"+Y', { desc = '[Y]ank (line) to system clipboard' })
+vim.keymap.set({ 'n', 'v' }, '<leader>d', '\"_d', { desc = '[D]elete without yanking' })
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
