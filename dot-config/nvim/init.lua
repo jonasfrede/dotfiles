@@ -1015,5 +1015,8 @@ require('lazy').setup({
   },
 })
 
+-- TODO: Add any additional configuration and refactor the plugins above to be more modular
+-- That includes the lazyvim plugin list and leap.nvim configuration
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

@@ -155,5 +155,8 @@ source ~/.config/broot/launcher/bash/br
 # Load fzf if available
 eval "$(fzf --bash)"
 
+# Load zoxide if available
+eval "$(zoxide init bash)"
+
 # Starship prompt needs to be at the end of the file
 eval "$(starship init bash)"
