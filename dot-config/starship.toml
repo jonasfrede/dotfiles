@@ -92,7 +92,6 @@ symbol = " "
 disabled = false
 
 
-
 # --- unused modules ---
 
 # [env_var]
@@ -454,7 +453,7 @@ format = "[[ $symbol$version ](fg:crust bg:sapphire)]($style)"
 # --- Timing Modules ---
 
 [time]
-disabled = false
+disabled = true
 time_format = "%R" # Hour:Minute Format
 style = "bg:lavender"
 format = "[[  $time ](fg:crust bg:lavender)]($style)"
