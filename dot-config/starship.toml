@@ -168,11 +168,11 @@ style = "bg:peach fg:crust"
 [git_branch]
 symbol = ""
 style = "bg:yellow"
-format = "[[ $symbol $branch(:$remote_branch) ](fg:crust bg:yellow)]($style)"
+format = "[[ $symbol $branch(:$remote_branch)](fg:crust bg:yellow)]($style)"
 
 [git_status]
 style = "bg:yellow"
-format = "[[($all_status$ahead_behind)](fg:crust bg:yellow)]($style)"
+format = "[[ ($all_status$ahead_behind)](fg:crust bg:yellow)]($style)"
 
 [git_commit]
 style = "bg:yellow"
@@ -180,10 +180,10 @@ format = "[[(($hash$tag)](fg:crust bg:yellow)]($style)"
 disabled = true
 
 [git_metrics]
-format = "([+$added]($added_style)) ([-$deleted]($deleted_style))"
-added_style = "bold bg:yellow fg:green"
+format = "([+$added]($added_style))([-$deleted]($deleted_style))"
+added_style = "bold bg:yellow fg:sapphire"
 deleted_style = "bold bg:yellow fg:red"
-disabled = true
+disabled = false
 
 [git_state]
 style = "bg:yellow"
