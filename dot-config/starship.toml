@@ -110,17 +110,15 @@ disabled = false
 
 # --- Basic Modules ---
 
-# You can also replace your username with a neat symbol like  or disable this
-# and use the os module below
+# Display the current username and change color if root
 [username]
 show_always = true
 style_user = "bg:red fg:crust"
-style_root = "bg:red fg:crust"
+style_root = "bg:red fg:green"
 format = "[ $user ]($style)"
-disabled = true
+disabled = false
 
-# An alternative to the username module which displays a symbol that
-# represents the current operating system
+# Display the current operating system icon
 [os]
 disabled = false
 style = "bg:red fg:crust"
