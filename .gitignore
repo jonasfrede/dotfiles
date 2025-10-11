@@ -3,5 +3,6 @@ lazy-lock.json
 dot-config/btop/themes/*
 dot-config/ghostty/themes/*
 dot-config/yazi/flavors/*
-catppuccin-*
+dot-config/tmux/plugins/tpm/*
+catppuccin*
 *.old
