@@ -7,13 +7,6 @@ afl++
 afl-utils
 amd-ucode
 android-file-transfer
-ansible
-ansible-bender
-ansible-creator
-ansible-language-server
-ansible-lint
-ansible-navigator
-ansible-runner
 apparmor
 arc-gtk-theme-git
 arch-wiki-docs
@@ -408,6 +401,7 @@ pv
 pyright
 python
 python-adblock
+python-black
 python-cvxpy
 python-cylp
 python-dotenv
