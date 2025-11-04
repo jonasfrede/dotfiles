@@ -13,6 +13,8 @@ arch-wiki-docs
 aria2
 arp-scan
 arrow
+asciinema
+asciiquarium
 atomicparsley
 atool
 atuin
@@ -75,6 +77,7 @@ cppunit
 cpputest
 crictl
 critest
+croc
 cronie
 csfml
 cuda
@@ -146,6 +149,7 @@ flameshot
 flat-remix
 flite
 fltk
+foldingathome
 foliate
 freecad
 freerdp
@@ -186,6 +190,7 @@ gpu-screen-recorder
 gpu-screen-recorder-gtk
 gradle
 grafana
+grex
 grsync
 grub
 grub-btrfs
@@ -208,6 +213,7 @@ highlight
 highs
 hlint
 httpie
+hugo
 hyperfine
 iaito
 ib-tws
@@ -251,7 +257,7 @@ lib32-pipewire
 lib32-pipewire-jack
 lib32-vulkan-mesa-layers
 lib32-vulkan-virtio
-libappindicator-gtk3
+libappindicator
 libguestfs
 liblphobos
 libphobos
@@ -308,7 +314,6 @@ nix
 nm-connection-editor
 nmap
 nmon
-nomachine
 nord-vim
 nord-xfce-terminal
 noto-fonts
@@ -405,6 +410,7 @@ python-black
 python-cvxpy
 python-cylp
 python-dotenv
+python-faker
 python-fastapi
 python-fastparquet
 python-github3py
