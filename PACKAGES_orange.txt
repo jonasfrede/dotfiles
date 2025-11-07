@@ -28,7 +28,6 @@ base-devel
 bash-completion
 bat
 bc
-bemenu
 biber
 bleachbit
 blender
@@ -245,7 +244,6 @@ kotlin
 ktlint
 kubeadm
 kubectl
-labwc
 lazydocker
 lazygit
 ldc
@@ -745,6 +743,7 @@ xorg-server-xephyr
 xorg-xgamma
 xorg-xwayland
 xournalpp
+xwayland-satellite
 yabridge
 yabridgectl
 yaml-language-server
