@@ -286,7 +286,6 @@ mcfly
 mediainfo
 meld
 meson
-minecraft-launcher
 minisat
 mirro-rs
 mise
@@ -343,7 +342,6 @@ opengl-man-pages
 openmp
 openmpi-docs
 openscad
-opensnitch
 openssh
 os-prober
 otf-aurulent-nerd
@@ -459,8 +457,6 @@ python-xarray
 qalculate-gtk
 qemu-full
 qpwgraph
-qt5-remoteobjects
-qt5-webengine
 qtforkawesome
 r2ghidra
 ranger
