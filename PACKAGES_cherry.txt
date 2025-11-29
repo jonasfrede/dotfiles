@@ -37,6 +37,7 @@ byobu
 c++utilities
 catfish
 catppuccin-cursors-mocha
+cava
 celt
 cheese
 choose
@@ -99,6 +100,7 @@ ecos
 efibootmgr
 eigen
 elixir
+evince
 exfat-utils
 exo
 extra-cmake-modules
@@ -116,6 +118,7 @@ flex
 fuse2
 fuse3
 fuseiso
+fuzzel
 fzf
 gamemode
 gamescope
@@ -171,6 +174,7 @@ htop
 httpie
 hyperfine
 hyprland
+hyprlauncher
 iaito
 icdiff
 imgui-git
@@ -238,8 +242,10 @@ nethogs
 network-manager-applet
 networkmanager
 nim
+niri
 nmap
 nmon
+noctalia-shell
 nord-vim
 nord-xfce-terminal
 normaliz
@@ -274,7 +280,6 @@ otf-texgyre-pagella-math
 pacman-contrib
 pandoc-cli
 pandoc-crossref
-papers
 patch
 pavucontrol
 pdf2svg
@@ -388,8 +393,6 @@ steam
 stow
 stp
 sudo
-sway
-sway-contrib
 swaybg
 swayidle
 swaylock
@@ -537,6 +540,7 @@ wget
 which
 wine-mono
 winetricks
+wl-clipboard
 wmenu
 woff2-font-awesome
 wt
@@ -592,6 +596,7 @@ xorg-server
 xorg-xgamma
 xorg-xinit
 xournalpp
+xwayland-satellite
 yarn
 yay
 yay-debug
