@@ -55,6 +55,8 @@ chromium
 cht.sh-git
 clamav
 clipman
+clisp
+clojure
 cmake
 cmatrix
 coin-or-cbc
@@ -111,6 +113,7 @@ dosbox
 dosfstools
 dot2tex
 dotnet-sdk
+downgrade
 doxygen
 dscanner
 dsq
@@ -148,7 +151,6 @@ flameshot
 flat-remix
 flite
 fltk
-foldingathome
 foliate
 freecad
 freerdp
@@ -248,6 +250,7 @@ lazydocker
 lazygit
 ldc
 lean
+leiningen
 less
 lib32-gamemode
 lib32-nvidia-utils
