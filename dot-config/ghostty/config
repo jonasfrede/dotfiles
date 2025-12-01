@@ -56,7 +56,7 @@ font-style-bold-italic = Bold Italic
 font-size = 11
 
 shell-integration = bash
-shell-integration-features = no-cursor,no-title,ssh-terminfo,ssh-env
+shell-integration-features = no-cursor,no-title,ssh-env
 cursor-style = block
 
 background-opacity = 0.69
