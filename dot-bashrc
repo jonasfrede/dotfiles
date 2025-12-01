@@ -138,8 +138,8 @@ function extract {
 fi
 }
 
-# Run PADD on Raspberry Pi if available and if we’re on the PiTFT screen (ssh is xterm)
-if [[ $(uname -m) == arm* ]]; then
+# Run PADD on Raspberry Pi if available and not over SSH
+if [[ $(uname -n) == raspberry* ]]; then
   if [ -z "$SSH_CLIENT" ] || [ -z "$SSH_TTY" ]; then
     while :
     do
