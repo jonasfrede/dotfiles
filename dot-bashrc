@@ -48,8 +48,9 @@ export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
 export JULIA_NUM_THREADS=4
 export LIBVIRT_DEFAULT_URI="qemu:///system"
+export QT_SCREEN_SCALE_FACTORS="1;1"
 
-# personal scripts
+# personal scripts and executables
 export PATH="${PATH}:~/.scripts:~/.local/bin:/sbin"
 
 # Prompt design - As a fallback if starship fails
