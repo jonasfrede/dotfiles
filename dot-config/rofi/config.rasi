@@ -168,4 +168,5 @@ configuration {
   }
 }
 
-@theme "catppuccin-default"
+//@theme "catppuccin-default"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
