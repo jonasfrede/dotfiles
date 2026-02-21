@@ -15,9 +15,11 @@ arp-scan
 arrow
 asciinema
 asciiquarium
+aseprite
 atomicparsley
 atool
 atuin
+ausweisapp
 autofs
 awesome-terminal-fonts
 bacon
@@ -29,6 +31,7 @@ bash-completion
 bat
 bc
 biber
+blanket
 bleachbit
 blender
 blesh
@@ -39,17 +42,17 @@ bluez-utils
 boost-libs
 borg
 broot
-brother-dcpj315w
-brscan3
 btop
 btrfs-progs
 caddy
+cargo-tauri
 catfish
 catppuccin-cursors-mocha
 cava
 ccache
 chafa
-cheese
+chaotic-keyring
+chaotic-mirrorlist
 choose
 chromium
 cht.sh-git
@@ -120,10 +123,9 @@ dsq
 dtools
 dua-cli
 dub
-duckdb-bin
+duckdb
 duf
 dust
-dwarffortress
 dysk
 ecos
 efibootmgr
@@ -132,6 +134,7 @@ elinks
 elixir
 emacs
 emscripten
+entt
 eslint
 espeak-ng
 evince
@@ -148,10 +151,13 @@ firefox
 firefox-i18n-de
 fish
 flameshot
-flat-remix
 flite
 fltk
+fmt-docs
 foliate
+foomatic-db
+foomatic-db-ppds
+foremost
 freecad
 freerdp
 freetype2
@@ -214,6 +220,7 @@ helmfile
 highlight
 highs
 hlint
+hplip
 httpie
 hugo
 hyperfine
@@ -250,7 +257,6 @@ kubectl
 lazydocker
 lazygit
 ldc
-lean
 leiningen
 less
 lib32-gamemode
@@ -305,6 +311,7 @@ musescore
 nano
 nano-syntax-highlighting
 naps2-bin
+nbtexplorer
 ncmpcpp
 ncspot
 neovim
@@ -341,6 +348,7 @@ openbsd-netcat
 opencamlib
 opencl-clhpp
 opencl-headers
+opencode-bin
 openconnect
 opencv-cuda
 opengl-man-pages
@@ -411,6 +419,7 @@ python-black
 python-cvxpy
 python-cylp
 python-dotenv
+python-duckdb
 python-faker
 python-fastapi
 python-fastparquet
@@ -446,6 +455,8 @@ python-pynormaliz
 python-pynvim
 python-pyopenssl
 python-pypandoc
+python-pypdf
+python-pyqt5
 python-pyscipopt
 python-pytest
 python-seaborn
@@ -506,7 +517,6 @@ starship
 steam
 stow
 stp
-sunvox
 swtpm
 syncthing
 syncthingtray
@@ -615,7 +625,6 @@ ttf-iosevkaterm-nerd
 ttf-iosevkatermslab-nerd
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
-ttf-juliamono
 ttf-juliamono-nerd-font
 ttf-lekton-nerd
 ttf-liberation-mono-nerd
@@ -657,6 +666,7 @@ valgrind
 vcvrack-bin
 vde2
 ventoy-bin
+vial-appimage
 viewnior
 vim
 virt-manager
@@ -679,6 +689,8 @@ vulkan-utility-libraries
 vulkan-validation-layers
 vulkan-virtio
 w3m
+wasi-libc
+wasi-libc++
 wasm-pack
 wget
 whois
@@ -688,6 +700,7 @@ wine
 wine-mono
 winetricks
 wiremix
+wireshark-qt
 woff2-font-awesome
 wt
 xarchiver
@@ -755,6 +768,7 @@ yq
 yt-dlp
 z
 z3
+zed
 zellij
 zig
 zls
