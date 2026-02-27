@@ -112,7 +112,6 @@ docker
 docker-buildx
 docker-compose
 dog
-dosbox
 dosfstools
 dot2tex
 dotnet-sdk
@@ -285,7 +284,6 @@ logrotate
 love
 lsd
 luarocks
-lutris
 lvm2
 lynx
 man-db
