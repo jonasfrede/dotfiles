@@ -57,6 +57,7 @@ choose
 chromium
 cht.sh-git
 clamav
+cliphist
 clipman
 clisp
 clojure
@@ -100,10 +101,11 @@ deskflow
 dfmt
 dhcpcd
 dialog
+direnv
 discord
 djvu2pdf
 djvulibre
-dlib
+dlib-cuda
 dmd
 dmd-docs
 dmidecode
@@ -198,6 +200,7 @@ gpu-screen-recorder-gtk
 gradle
 grafana
 grex
+grim
 grsync
 grub
 grub-btrfs
@@ -223,8 +226,10 @@ hplip
 httpie
 hugo
 hyperfine
+hyprland
+hyprlauncher
+hyprpolkitagent
 iaito
-ib-tws
 icdiff
 ijq
 imagemagick
@@ -316,10 +321,12 @@ neovim
 nethogs
 networkmanager
 nim
+niri
 nix
 nm-connection-editor
 nmap
 nmon
+noctalia-shell
 nord-vim
 nord-xfce-terminal
 noto-fonts
@@ -500,11 +507,10 @@ scrcpy
 scriptisto
 sd
 sdl_ttf
-seafile
-seafile-client
 seahorse
 shotcut
 signal-desktop
+slurp
 solaar
 speech-dispatcher
 spotify
@@ -517,7 +523,7 @@ stow
 stp
 swtpm
 syncthing
-syncthingtray
+syncthingtray-qt6
 system-config-printer
 systemtap
 ta-lib
@@ -690,6 +696,7 @@ w3m
 wasi-libc
 wasi-libc++
 wasm-pack
+wezterm
 wget
 whois
 wiki-tui
@@ -699,6 +706,7 @@ wine-mono
 winetricks
 wiremix
 wireshark-qt
+wlsunset
 woff2-font-awesome
 wt
 xarchiver
@@ -706,6 +714,7 @@ xclicker
 xclip
 xdg-desktop-portal
 xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
 xdg-desktop-portal-xapp
 xdotool
 xfburn
