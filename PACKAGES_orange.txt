@@ -10,6 +10,7 @@ android-file-transfer
 apparmor
 arc-gtk-theme-git
 arch-wiki-docs
+ardour
 aria2
 arp-scan
 arrow
@@ -216,6 +217,7 @@ gvfs-dnssd
 gvfs-mtp
 gvfs-smb
 handbrake
+harvid
 haskell-base-prelude
 helm
 helmfile
@@ -223,6 +225,7 @@ highlight
 highs
 hlint
 hplip
+htop
 httpie
 hugo
 hyperfine
@@ -237,7 +240,7 @@ imgui-git
 imgui-sfml
 inkscape
 ipe
-iptables-nft
+iptables
 ipython
 jabref
 jbig2enc
@@ -320,6 +323,7 @@ ncspot
 neovim
 nethogs
 networkmanager
+new-session-manager
 nim
 niri
 nix
@@ -593,7 +597,11 @@ tmux-nord-theme
 tokei
 traceroute
 trash-cli
+tree-sitter-bash
 tree-sitter-cli
+tree-sitter-javascript
+tree-sitter-python
+tree-sitter-rust
 ttf-0xproto-nerd
 ttf-3270-nerd
 ttf-agave-nerd
@@ -696,6 +704,7 @@ w3m
 wasi-libc
 wasi-libc++
 wasm-pack
+webkit2gtk-imgpaste
 wezterm
 wget
 whois
@@ -723,7 +732,6 @@ xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
 xfce4-eyes-plugin
@@ -758,6 +766,7 @@ xfdesktop
 xfwm4
 xfwm4-themes
 xh
+xjadeo
 xmlstarlet
 xorg-fonts-type1
 xorg-server-xephyr
