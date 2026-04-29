@@ -73,6 +73,7 @@ deskflow
 dfmt
 dhcpcd
 dialog
+direnv
 discord
 djvu2pdf
 dmd
@@ -105,9 +106,7 @@ fd
 ffmpegthumbnailer
 figlet
 file-roller
-filezilla
 firefox-i18n-de
-flameshot
 flex
 fuse2
 fuse3
@@ -115,11 +114,9 @@ fuseiso
 fuzzel
 fzf
 gamemode
-gamescope
 gcc
 gcc-rust
 gdb
-geogebra
 ghc
 ghidra
 ghostscript
@@ -152,7 +149,6 @@ gvfs
 gvfs-afc
 gvfs-dnssd
 gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
@@ -163,7 +159,6 @@ haveged
 highlight
 hplip
 hq
-htop
 httpie
 hyperfine
 hyprland
@@ -176,7 +171,6 @@ imgui-sfml
 inetutils
 inkscape
 intel-ucode
-ipe
 jabref
 jdk21-openjdk
 julia
@@ -243,10 +237,8 @@ noto-fonts-emoji
 ntfs-3g
 ntp
 obsidian
-octave
 opencl-clhpp
 opencl-headers
-openconnect
 opengl-man-pages
 openssh
 otf-aurulent-nerd
@@ -274,7 +266,6 @@ patch
 pavucontrol
 pdf2svg
 pdftk
-piper
 pkgconf
 plymouth
 powerline
@@ -292,7 +283,6 @@ python-django
 python-dotenv
 python-flask
 python-h5py-openmpi
-python-keras
 python-lxml
 python-lxml-docs
 python-mutagen
@@ -316,8 +306,8 @@ python-pytorch
 python-reportlab
 python-scikit-learn
 python-secretstorage
-python-tensorflow
 python-tzdata
+python-uv
 python-virtualenv
 python-vlc
 python-wxpython
@@ -376,7 +366,6 @@ sd
 sdl_ttf
 seahorse
 sfml
-solaar
 sshfs
 starship
 steam
@@ -384,7 +373,7 @@ stow
 stp
 sudo
 syncthing
-syncthingtray
+syncthingtray-qt6
 tenacity
 tensorflow
 terminus-font
@@ -414,6 +403,11 @@ texlive-pstricks
 texlive-publishers
 texlive-xetex
 the_silver_searcher
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-vcs-plugin
+thunar-volman
 thunderbird-i18n-de
 tldr
 tmux
@@ -461,7 +455,6 @@ ttf-iosevka-nerd
 ttf-iosevkaterm-nerd
 ttf-iosevkatermslab-nerd
 ttf-jetbrains-mono-nerd
-ttf-juliamono
 ttf-juliamono-nerd-font
 ttf-lekton-nerd
 ttf-liberation
@@ -499,6 +492,7 @@ unrar
 unzip
 up
 usbutils
+uv
 valgrind
 ventoy-bin
 viewnior
@@ -533,7 +527,6 @@ xdg-user-dirs
 xmlstarlet
 xorg-fonts-type1
 xorg-server
-xorg-xgamma
 xorg-xinit
 xournalpp
 xwayland-satellite
@@ -550,4 +543,10 @@ zls
 zoom
 zoxide
 zsh
+zsh-autosuggestions
+zsh-completions
 zsh-doc
+zsh-history-substring-search
+zsh-lovers
+zsh-syntax-highlighting
+zshdb
