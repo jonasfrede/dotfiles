@@ -9,7 +9,7 @@ mkdir -p "$(dirname "$outfile")"
 
 # Write command output to a temp file first
 tmpfile="$(mktemp "${outfile}.XXXXXX")"
-yay -Qeq > "$tmpfile"
+yay -Qq > "$tmpfile"
 
 # Rotate existing file to .old (overwrite allowed)
 if [[ -f "$outfile" ]]; then
