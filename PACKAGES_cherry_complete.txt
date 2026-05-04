@@ -1891,6 +1891,7 @@ talloc
 tar
 tcl
 tdb
+tealdeer
 tenacity
 tensorflow
 terminus-font
@@ -1934,7 +1935,6 @@ thunderbird-i18n-de
 tinysparql
 tinyxml2
 tk
-tldr
 tmux
 tomlplusplus
 tpm2-tss

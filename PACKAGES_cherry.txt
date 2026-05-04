@@ -374,6 +374,7 @@ stp
 sudo
 syncthing
 syncthingtray-qt6
+tealdeer
 tenacity
 tensorflow
 terminus-font
@@ -409,7 +410,6 @@ thunar-media-tags-plugin
 thunar-vcs-plugin
 thunar-volman
 thunderbird-i18n-de
-tldr
 tmux
 traceroute
 tree-sitter-cli
