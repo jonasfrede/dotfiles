@@ -705,7 +705,6 @@ wasi-libc
 wasi-libc++
 wasm-pack
 webkit2gtk-imgpaste
-wezterm
 wget
 whois
 wiki-tui
