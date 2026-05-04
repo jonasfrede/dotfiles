@@ -2,7 +2,6 @@
 a2jmidid
 aarch64-linux-gnu-gcc
 accountsservice
-adobe-source-code-pro-fonts
 afl++
 afl-utils
 amd-ucode
@@ -680,6 +679,7 @@ ventoy-bin
 vial-appimage
 viewnior
 vim
+vim-powerline
 virt-manager
 virt-viewer
 virt-what
@@ -789,4 +789,10 @@ zls
 zoom
 zoxide
 zsh
+zsh-autosuggestions
+zsh-completions
 zsh-doc
+zsh-history-substring-search
+zsh-lovers
+zsh-syntax-highlighting
+zshdb

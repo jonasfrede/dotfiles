@@ -12,7 +12,6 @@ accountsservice
 acl
 acorn
 ada
-adobe-source-code-pro-fonts
 adwaita-cursors
 adwaita-fonts
 adwaita-icon-theme
@@ -2613,6 +2612,7 @@ vial-appimage
 vid.stab
 viewnior
 vim
+vim-powerline
 vim-runtime
 virglrenderer
 virt-install
@@ -2839,7 +2839,13 @@ zls
 zoom
 zoxide
 zsh
+zsh-autosuggestions
+zsh-completions
 zsh-doc
+zsh-history-substring-search
+zsh-lovers
+zsh-syntax-highlighting
+zshdb
 zstd
 zxing-cpp
 zziplib
