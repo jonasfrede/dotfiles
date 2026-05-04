@@ -3,12 +3,14 @@ aic94xx-firmware
 alsa-plugins
 alsa-utils
 aria2
+aspell
 atomicparsley
 atool
 atuin
 autoconf
 autofs
 automake
+awesome-terminal-fonts
 baobab
 base
 base-devel
@@ -26,7 +28,6 @@ blueman
 bluez
 bluez-libs
 bluez-utils
-boost
 broot
 btop
 btrfs-progs
@@ -34,7 +35,6 @@ c++utilities
 cage
 catppuccin-cursors-mocha
 cava
-celt
 chaotic-keyring
 chaotic-mirrorlist
 choose
@@ -50,8 +50,6 @@ coin-or-ipopt
 coin-or-lemon
 coin-or-mp
 coin-or-osi
-colloid-catppuccin-gtk-theme-git
-colloid-cursors-git
 colordiff
 cowsay
 cpio
@@ -87,7 +85,6 @@ dog
 dosfstools
 dotnet-sdk
 doxygen
-doxygen-docs
 dscanner
 dtools
 dub
@@ -106,7 +103,6 @@ fastfetch
 fd
 ffmpegthumbnailer
 figlet
-file-roller
 firefox-i18n-de
 flex
 fuse2
@@ -521,6 +517,7 @@ wmenu
 woff2-font-awesome
 wofi
 wt
+xarchiver
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-wlr

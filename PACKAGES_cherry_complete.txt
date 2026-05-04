@@ -40,6 +40,7 @@ autoconf
 autofs
 automake
 avahi
+awesome-terminal-fonts
 ayatana-ido
 babl
 baobab
@@ -63,7 +64,6 @@ blueman
 bluez
 bluez-libs
 bluez-utils
-boost
 boost-libs
 botan
 brial
@@ -89,7 +89,6 @@ catppuccin-cursors-mocha
 cava
 cblas
 cddlib
-celt
 chaotic-keyring
 chaotic-mirrorlist
 choose
@@ -114,8 +113,6 @@ coin-or-ipopt
 coin-or-lemon
 coin-or-mp
 coin-or-osi
-colloid-catppuccin-gtk-theme-git
-colloid-cursors-git
 colordiff
 compiler-rt
 compiler-rt20
@@ -187,7 +184,6 @@ dotnet-sdk
 dotnet-targeting-pack
 double-conversion
 doxygen
-doxygen-docs
 dscanner
 dtools
 dub
@@ -233,7 +229,6 @@ ffmpegthumbnailer
 fftw
 figlet
 file
-file-roller
 filesystem
 findutils
 firefox
@@ -975,7 +970,6 @@ libmspub
 libmtp
 libmwaw
 libmypaint
-libnautilus-extension
 libndp
 libnet
 libnetfilter_conntrack
@@ -2121,6 +2115,7 @@ x264
 x265
 xapp
 xapp-symbolic-icons
+xarchiver
 xcb-proto
 xcb-util
 xcb-util-cursor
