@@ -31,6 +31,7 @@ broot
 btop
 btrfs-progs
 c++utilities
+cage
 catppuccin-cursors-mocha
 cava
 celt
@@ -138,6 +139,9 @@ gping
 gptfdisk
 grafana
 graphviz
+greetd
+greetd-regreet
+greetd-tuigreet
 groff
 grpc
 grsync
@@ -193,9 +197,6 @@ libreoffice-fresh-de
 libtool
 libultrahdr
 light-locker
-lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
 linux
 linux-firmware
 linux-headers
@@ -350,7 +351,6 @@ r2ghidra
 radare2
 ranger
 raylib
-redshift
 reptyr
 rhino
 ripgrep-all
@@ -516,6 +516,7 @@ which
 wine-mono
 winetricks
 wl-clipboard
+wlsunset
 wmenu
 woff2-font-awesome
 wofi
@@ -526,8 +527,6 @@ xdg-desktop-portal-wlr
 xdg-user-dirs
 xmlstarlet
 xorg-fonts-type1
-xorg-server
-xorg-xinit
 xournalpp
 xwayland-satellite
 yarn
