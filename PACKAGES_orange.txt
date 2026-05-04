@@ -208,7 +208,6 @@ grub-btrfs
 gspell
 gspell-docs
 gst-plugins-ugly
-gtk-theme-solarc-git
 guestfs-tools
 gufw
 gum
