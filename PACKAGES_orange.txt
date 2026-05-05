@@ -685,7 +685,6 @@ virt-viewer
 virt-what
 virtio-win
 visual-studio-code-bin
-visualvm
 vkd3d
 vlc
 vlc-plugin-x264

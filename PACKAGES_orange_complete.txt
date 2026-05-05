@@ -804,7 +804,6 @@ imagemagick
 imath
 img2pdf
 imgui-git
-imgui-git-debug
 imgui-sfml
 iml
 imlib2
@@ -1395,7 +1394,7 @@ linux-firmware-whence
 linux-headers
 lksctp-tools
 lld
-lld20
+lld21
 llhttp
 llvm
 llvm-julia-libs
@@ -2622,7 +2621,6 @@ virt-what
 virtio-win
 virtiofsd
 visual-studio-code-bin
-visualvm
 vkd3d
 vlc
 vlc-cli
