@@ -95,7 +95,7 @@ efibootmgr
 eigen
 elixir
 evince
-exfat-utils
+exfatprogs
 extra-cmake-modules
 eza
 fastfetch
@@ -106,7 +106,6 @@ firefox-i18n-de
 flex
 fuse2
 fuse3
-fuseiso
 fuzzel
 fzf
 gamemode
@@ -154,11 +153,10 @@ gvfs-nfs
 gvfs-onedrive
 gvfs-smb
 gvfs-wsdd
-haveged
 highlight
 hplip
-hq
 httpie
+hunspell-de
 hyperfine
 hyprland
 hyprlauncher
@@ -184,14 +182,12 @@ ldc
 lib32-libpulse
 libayatana-appindicator
 liblphobos
-libmatio
 libnewt
 libphobos
 libreoffice-fresh
 libreoffice-fresh-de
 libtool
 libultrahdr
-light-locker
 linux
 linux-firmware
 linux-headers
@@ -206,7 +202,6 @@ mathjax
 mcfly
 mediainfo
 meld
-mercurial
 mesa
 minisat
 mkinitcpio-firmware
@@ -220,7 +215,6 @@ nano-syntax-highlighting
 ncmpcpp
 neovim
 nethogs
-network-manager-applet
 networkmanager
 nim
 niri
@@ -278,7 +272,6 @@ python-brotlicffi
 python-django
 python-dotenv
 python-flask
-python-h5py-openmpi
 python-lxml
 python-lxml-docs
 python-mutagen
@@ -310,7 +303,6 @@ python-wxpython
 python-xattr
 python-xlrd
 qpdfview
-qsopt-ex
 qt6-3d
 qt6-charts
 qt6-connectivity
@@ -341,7 +333,6 @@ qt6-wayland
 qt6-websockets
 qt6-webview
 qtforkawesome
-qtutilities
 r2ghidra
 radare2
 ranger
@@ -449,6 +440,7 @@ ttf-intone-nerd
 ttf-iosevka-nerd
 ttf-iosevkaterm-nerd
 ttf-iosevkatermslab-nerd
+ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-juliamono-nerd-font
 ttf-lekton-nerd
@@ -514,7 +506,6 @@ wl-clipboard
 wlsunset
 wmenu
 woff2-font-awesome
-wofi
 wt
 xarchiver
 xdg-desktop-portal-gtk

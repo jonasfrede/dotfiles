@@ -210,7 +210,7 @@ enchant
 erlang-core
 evince
 exempi
-exfat-utils
+exfatprogs
 exiv2
 exo
 expat
@@ -245,7 +245,6 @@ fribidi
 fuse-common
 fuse2
 fuse3
-fuseiso
 fuzzel
 fzf
 gamemode
@@ -604,18 +603,16 @@ haskell-xml-types
 haskell-yaml
 haskell-zip-archive
 haskell-zlib
-haveged
-hdf5-openmpi
 hicolor-icon-theme
 hidapi
 highlight
 highway
 hplip
-hq
 hslua-cli
 hspell
 httpie
 hunspell
+hunspell-de
 hunspell-en_us
 hwdata
 hwloc
@@ -677,9 +674,6 @@ jdk21-openjdk
 jemalloc
 jose
 jq
-jre17-openjdk-headless
-jre8-openjdk
-jre8-openjdk-headless
 json-c
 json-glib
 jsoncpp
@@ -780,14 +774,12 @@ lib32-libxau
 lib32-libxcb
 lib32-libxcrypt
 lib32-libxcrypt-compat
-lib32-libxcursor
 lib32-libxdmcp
 lib32-libxext
 lib32-libxfixes
 lib32-libxi
 lib32-libxinerama
 lib32-libxml2
-lib32-libxrender
 lib32-libxshmfence
 lib32-libxss
 lib32-libxv
@@ -809,8 +801,6 @@ lib32-p11-kit
 lib32-pam
 lib32-pcre2
 lib32-pipewire
-lib32-sdl2-compat
-lib32-sdl3
 lib32-speex
 lib32-spirv-tools
 lib32-sqlite
@@ -826,7 +816,6 @@ libabw
 libadwaita
 libaec
 libaio
-libappindicator
 libarchive
 libasan
 libass
@@ -947,11 +936,9 @@ liblphobos
 liblqr
 liblsan
 libluv
-liblzf
 libmad
 libmakepkg-dropins
 libmanette
-libmatio
 libmatroska
 libmaxminddb
 libmd
@@ -982,8 +969,6 @@ libngtcp2
 libnice
 libnl
 libnm
-libnma
-libnma-common
 libnotify
 libnsl
 libnumbertext
@@ -1073,7 +1058,6 @@ libvdpau
 libverto
 libvisio
 libvlc
-libvoikko
 libvorbis
 libvpl
 libvpx
@@ -1131,7 +1115,6 @@ libzen
 libzip
 libzmf
 licenses
-light-locker
 lilv
 linbox
 linux
@@ -1155,7 +1138,7 @@ linux-firmware-whence
 linux-headers
 lksctp-tools
 lld
-lld20
+lld21
 llhttp
 llvm
 llvm-julia-libs
@@ -1197,7 +1180,6 @@ md4c
 mdadm
 mediainfo
 meld
-mercurial
 mesa
 mesa-utils
 meson
@@ -1208,7 +1190,6 @@ mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-firmware
 mobile-broadband-provider-info
-modest
 mpdecimal
 mpfi
 mpfr
@@ -1236,14 +1217,12 @@ net-snmp
 nethogs
 netpbm
 nettle
-network-manager-applet
 networkmanager
 nfsidmap
 nftables
 nim
 ninja
 niri
-nm-connection-editor
 nmap
 nmon
 noctalia-qs
@@ -1555,7 +1534,6 @@ python-gmpy2
 python-gobject
 python-greenlet
 python-h11
-python-h5py-openmpi
 python-httpcore
 python-httpx
 python-idna
@@ -1602,7 +1580,6 @@ python-mdurl
 python-memory-allocator
 python-mistune
 python-more-itertools
-python-mpi4py
 python-mpmath
 python-msgpack
 python-multidict
@@ -1680,7 +1657,6 @@ python-secretstorage
 python-send2trash
 python-setproctitle
 python-setuptools
-python-shtab
 python-six
 python-sniffio
 python-snowballstemmer
@@ -1697,7 +1673,6 @@ python-sqlparse
 python-stack-data
 python-sympy
 python-systemd
-python-termcolor
 python-threadpoolctl
 python-tinycss2
 python-tomlkit
@@ -1733,16 +1708,11 @@ qhull
 qpdf
 qpdfview
 qrencode
-qsopt-ex
 qt5-base
 qt5-declarative
-qt5-location
-qt5-remoteobjects
 qt5-svg
 qt5-translations
 qt5-wayland
-qt5-webchannel
-qt5-webengine
 qt5-x11extras
 qt6-3d
 qt6-5compat
@@ -1785,7 +1755,6 @@ qt6-websockets
 qt6-webview
 qtforkawesome
 qtforkawesome-qt6
-qtutilities
 qtutilities-qt6
 r
 r2ghidra
@@ -1982,6 +1951,7 @@ ttf-intone-nerd
 ttf-iosevka-nerd
 ttf-iosevkaterm-nerd
 ttf-iosevkatermslab-nerd
+ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-juliamono-nerd-font
 ttf-lekton-nerd
@@ -2104,7 +2074,6 @@ wlsunset
 wmenu
 woff2
 woff2-font-awesome
-wofi
 wpa_supplicant
 wsdd
 wt
