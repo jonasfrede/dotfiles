@@ -93,7 +93,6 @@ chaotic-mirrorlist
 choose
 cifs-utils
 clang
-clang20
 clang21
 cliquer
 clucene
@@ -114,7 +113,6 @@ coin-or-mp
 coin-or-osi
 colordiff
 compiler-rt
-compiler-rt20
 compiler-rt21
 containerd
 coreutils
@@ -1143,7 +1141,6 @@ llhttp
 llvm
 llvm-julia-libs
 llvm-libs
-llvm20-libs
 llvm21
 llvm21-libs
 lm_sensors
