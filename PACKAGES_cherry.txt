@@ -269,9 +269,7 @@ pv
 python-bottleneck
 python-brotli
 python-brotlicffi
-python-django
 python-dotenv
-python-flask
 python-lxml
 python-lxml-docs
 python-mutagen

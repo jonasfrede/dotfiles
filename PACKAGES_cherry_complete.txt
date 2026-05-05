@@ -1473,8 +1473,6 @@ python-appdirs
 python-argcomplete
 python-argon2-cffi
 python-argon2-cffi-bindings
-python-arrow
-python-asgiref
 python-astroid
 python-asttokens
 python-async-lru
@@ -1484,7 +1482,6 @@ python-babel
 python-beautifulsoup4
 python-black
 python-bleach
-python-blinker
 python-bottleneck
 python-brotli
 python-brotlicffi
@@ -1513,7 +1510,6 @@ python-defusedxml
 python-dill
 python-distlib
 python-distro
-python-django
 python-dnspython
 python-docopt
 python-docutils
@@ -1522,7 +1518,6 @@ python-et-xmlfile
 python-executing
 python-fastjsonschema
 python-filelock
-python-flask
 python-fonttools
 python-fpylll
 python-fqdn
@@ -1541,9 +1536,7 @@ python-iniconfig
 python-ipykernel
 python-ipython-pygments-lexers
 python-ipywidgets
-python-isoduration
 python-isort
-python-itsdangerous
 python-jaraco.collections
 python-jaraco.context
 python-jaraco.functools
@@ -1666,7 +1659,6 @@ python-sphinxcontrib-htmlhelp
 python-sphinxcontrib-jsmath
 python-sphinxcontrib-qthelp
 python-sphinxcontrib-serializinghtml
-python-sqlparse
 python-stack-data
 python-sympy
 python-systemd
@@ -1677,7 +1669,6 @@ python-tornado
 python-tqdm
 python-traitlets
 python-typeguard
-python-types-python-dateutil
 python-typing_extensions
 python-tzdata
 python-tzlocal
@@ -1691,7 +1682,6 @@ python-wcwidth
 python-webcolors
 python-webencodings
 python-websocket-client
-python-werkzeug
 python-wheel
 python-wxpython
 python-xattr
