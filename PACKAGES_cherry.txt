@@ -1,7 +1,6 @@
 7zip
 aic94xx-firmware
 alsa-plugins
-alsa-utils
 aria2
 aspell
 atomicparsley

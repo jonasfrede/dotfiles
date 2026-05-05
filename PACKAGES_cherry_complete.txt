@@ -14,7 +14,6 @@ alsa-lib
 alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
-alsa-utils
 android-tools
 android-udev
 aom
