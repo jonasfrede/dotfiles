@@ -602,7 +602,6 @@ haskell-extra
 haskell-fast-logger
 haskell-file-embed
 haskell-filepattern
-haskell-foldable1-classes-compat
 haskell-generically
 haskell-generics-sop
 haskell-ghc-lib-parser-ex
