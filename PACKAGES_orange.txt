@@ -253,8 +253,6 @@ ibus
 icdiff
 ijq
 imagemagick
-imgui-git
-imgui-sfml
 inkscape
 iptables
 ipython

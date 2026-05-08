@@ -378,6 +378,8 @@ gcc
 gcc-fortran
 gcc-libs
 gcc-rust
+gcc15
+gcc15-libs
 gcr
 gcr-4
 gd
@@ -560,6 +562,7 @@ haskell-case-insensitive
 haskell-cassava
 haskell-cborg
 haskell-cereal
+haskell-character-ps
 haskell-citeproc
 haskell-clock
 haskell-cmdargs
@@ -819,8 +822,6 @@ ijs
 imagemagick
 imath
 img2pdf
-imgui-git
-imgui-sfml
 iml
 imlib2
 inetutils
@@ -2377,6 +2378,7 @@ ripgrep
 ripgrep-all
 rlwrap
 rnnoise
+robin-map
 rofi
 rpcbind
 rpi-imager
