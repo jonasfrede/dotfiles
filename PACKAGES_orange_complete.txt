@@ -142,6 +142,7 @@ catppuccin-cursors-mocha
 cava
 cblas
 ccache
+cccl
 cddlib
 cdparanoia
 ceres-solver
