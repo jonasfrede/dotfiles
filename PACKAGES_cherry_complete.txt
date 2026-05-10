@@ -87,6 +87,7 @@ capstone
 catppuccin-cursors-mocha
 cava
 cblas
+cccl
 cddlib
 chaotic-keyring
 chaotic-mirrorlist
@@ -253,6 +254,8 @@ gcc
 gcc-fortran
 gcc-libs
 gcc-rust
+gcc15
+gcc15-libs
 gcr
 gcr-4
 gd
@@ -401,6 +404,7 @@ haskell-case-insensitive
 haskell-cassava
 haskell-cborg
 haskell-cereal
+haskell-character-ps
 haskell-citeproc
 haskell-cmdargs
 haskell-colour
