@@ -306,6 +306,7 @@ linux-headers
 logrotate
 love
 lsd
+lua-jsregexp
 luarocks
 lvm2
 lynx
