@@ -383,6 +383,7 @@ openmp
 openmpi-docs
 openscad
 openssh
+orca-slicer-bin
 os-prober
 otf-aurulent-nerd
 otf-codenewroman-nerd
@@ -845,6 +846,7 @@ xfwm4-themes
 xh
 xjadeo
 xmlstarlet
+xonsh
 xorg-fonts-type1
 xorg-server-xephyr
 xorg-xgamma
