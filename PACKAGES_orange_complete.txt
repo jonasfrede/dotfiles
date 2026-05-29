@@ -400,7 +400,6 @@ gflags
 gfxstream
 ghc
 ghc-libs
-ghcup-hs-bin
 ghidra
 ghostscript
 ghostty
@@ -861,6 +860,7 @@ jq
 js140
 json-c
 json-glib
+json-schema-validator
 jsoncpp
 julia
 jupyter-nbclient
@@ -1500,6 +1500,7 @@ mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-firmware
 mlt
+mnxdom
 mobile-broadband-provider-info
 mono
 most
@@ -1889,6 +1890,9 @@ python
 python-absl
 python-adal
 python-adblock
+python-aiohappyeyeballs
+python-aiohttp
+python-aiosignal
 python-annotated-doc
 python-annotated-types
 python-anyio
@@ -1961,6 +1965,7 @@ python-fonttools
 python-fpdf2
 python-fpylll
 python-fqdn
+python-frozenlist
 python-fsspec
 python-github3py
 python-gmpy2
@@ -2084,6 +2089,7 @@ python-pplpy
 python-primecountpy
 python-prometheus_client
 python-prompt_toolkit
+python-propcache
 python-protobuf
 python-proxmoxer
 python-psutil
@@ -2132,6 +2138,7 @@ python-pytz
 python-pyudev
 python-pyxdg
 python-pyzmq
+python-qdldl
 python-referencing
 python-reportlab
 python-requests
@@ -2218,6 +2225,7 @@ python-xlib
 python-xlrd
 python-xmltodict
 python-yaml
+python-yarl
 python-zipp
 python-zstandard
 qalculate-gtk
@@ -2746,6 +2754,7 @@ vlc-plugin-inflate
 vlc-plugin-journal
 vlc-plugin-jpeg
 vlc-plugin-lua
+vlc-plugin-matroska
 vlc-plugin-mpg123
 vlc-plugin-ogg
 vlc-plugin-opus
