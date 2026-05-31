@@ -204,6 +204,7 @@ egl-x11
 eglexternalplatform
 eigen
 electron39
+elfutils
 elixir
 enchant
 erlang-core
@@ -442,7 +443,6 @@ haskell-emojis
 haskell-erf
 haskell-fast-logger
 haskell-file-embed
-haskell-foldable1-classes-compat
 haskell-generically
 haskell-generics-sop
 haskell-gitrev
@@ -776,12 +776,14 @@ lib32-libxau
 lib32-libxcb
 lib32-libxcrypt
 lib32-libxcrypt-compat
+lib32-libxcursor
 lib32-libxdmcp
 lib32-libxext
 lib32-libxfixes
 lib32-libxi
 lib32-libxinerama
 lib32-libxml2
+lib32-libxrender
 lib32-libxshmfence
 lib32-libxss
 lib32-libxv
@@ -803,6 +805,8 @@ lib32-p11-kit
 lib32-pam
 lib32-pcre2
 lib32-pipewire
+lib32-sdl2-compat
+lib32-sdl3
 lib32-speex
 lib32-spirv-tools
 lib32-sqlite
@@ -1264,7 +1268,6 @@ openmpi
 openpmix
 openssh
 openssl
-openssl-1.1
 openucx
 openxr
 opus
@@ -2021,6 +2024,7 @@ vlc-plugin-inflate
 vlc-plugin-journal
 vlc-plugin-jpeg
 vlc-plugin-lua
+vlc-plugin-matroska
 vlc-plugin-mpg123
 vlc-plugin-ogg
 vlc-plugin-opus
