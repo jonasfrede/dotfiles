@@ -1225,6 +1225,7 @@ libnma
 libnma-common
 libnotify
 libnsl
+libntfs-3g
 libnumbertext
 libnvidia-container
 libnvme
@@ -1449,6 +1450,7 @@ lsscsi
 lua
 lua-jsregexp
 lua-luarocks
+lua51
 lua51-lpeg
 lua54
 lua54-lpeg
@@ -1576,6 +1578,7 @@ npth
 nspr
 nss
 ntfs-3g
+ntfsprogs
 ntl
 ntp
 numactl
@@ -2210,7 +2213,6 @@ python-userpath
 python-uv
 python-vdf
 python-virtualenv
-python-vlc
 python-watchdog
 python-wcwidth
 python-webcolors

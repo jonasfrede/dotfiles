@@ -518,7 +518,6 @@ python-tqdm
 python-uri-template
 python-uv
 python-virtualenv
-python-vlc
 python-webcolors
 python-xattr
 python-xlrd
