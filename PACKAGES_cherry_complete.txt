@@ -312,7 +312,6 @@ go
 go-tools
 gobject-introspection
 gobject-introspection-runtime
-gofumpt
 google-glog
 gopls
 gparted
@@ -835,6 +834,7 @@ libavif
 libayatana-appindicator
 libayatana-indicator
 libb2
+libblake3
 libblastrampoline
 libblockdev
 libblockdev-crypto
@@ -977,6 +977,7 @@ libnl
 libnm
 libnotify
 libnsl
+libntfs-3g
 libnumbertext
 libnvme
 libobjc
@@ -987,6 +988,7 @@ liborcus
 libp11-kit
 libpagemaker
 libpaper
+libpathrs
 libpcap
 libpciaccess
 libpgm
@@ -1159,6 +1161,7 @@ lsb-release
 lsd
 lsof
 lua
+lua51
 lua51-lpeg
 lua54
 lua54-lpeg
@@ -1384,6 +1387,7 @@ perl-lwp-mediatypes
 perl-lwp-protocol-https
 perl-mailtools
 perl-math-round
+perl-mime-base32
 perl-mime-charset
 perl-module-implementation
 perl-module-runtime
@@ -1480,6 +1484,7 @@ python-appdirs
 python-argcomplete
 python-argon2-cffi
 python-argon2-cffi-bindings
+python-ast-serialize
 python-astroid
 python-asttokens
 python-async-lru
@@ -1683,7 +1688,6 @@ python-uri-template
 python-urllib3
 python-uv
 python-virtualenv
-python-vlc
 python-watchdog
 python-wcwidth
 python-webcolors

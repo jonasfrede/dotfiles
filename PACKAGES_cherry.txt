@@ -126,7 +126,6 @@ gnuchess
 gnuplot
 go
 go-tools
-gofumpt
 gopls
 gparted
 gping
@@ -296,7 +295,6 @@ python-secretstorage
 python-tzdata
 python-uv
 python-virtualenv
-python-vlc
 python-wxpython
 python-xattr
 python-xlrd
