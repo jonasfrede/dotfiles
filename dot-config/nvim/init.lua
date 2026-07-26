@@ -1020,3 +1020,59 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+-- TODO: ideas of further or different plugins to add or change:
+-- statusline (like lualine or galaxyline)
+-- tabline (like barbar or bufferline)
+-- file explorer (like nvim-tree or fern)
+-- fuzzy finder (like telescope or fzf)
+-- git integration (like gitsigns or fugitive)
+-- lsp integration (like nvim-lspconfig or coc.nvim)
+-- syntax highlighting (like treesitter or vim-polyglot)
+-- color scheme (like gruvbox or solarized)
+-- terminal integration (like toggleterm or neoterm)
+-- snippet integration (like ultisnips or luasnip)
+-- testing integration (like vim-test or neotest)
+-- debugging integration (like nvim-dap or vimspector)
+-- project management (like vim-projectionist or vim-rooter)
+-- session management (like vim-obsession or vim-startify)
+-- note-taking integration (like vimwiki or neorg)
+-- tasklist integration (like vim-todo or vim-taskwarrior)
+-- generic productivity integration (like vim-ctrlp or vim-fugitive)
+-- further productivity integration (like vim-multiple-cursors, vim-surround, vim-commentary or vim-repeat)
+-- also, flash.nvim, fidget.nvim, and mini.nvim are all useful productivity plugins
+-- vim-tpipeline is a useful plugin for managing pipelines and workflows, especially for data science and machine learning projects.
+-- vim-tmux-navigator is a useful plugin for navigating between vim and tmux panes seamlessly.
+-- nvim-treesitter-textobjects is a useful plugin for defining and using text objects based on treesitter syntax trees.
+-- treesj.nvim is a useful plugin for splitting and joining code blocks based on treesitter syntax trees.
+-- Comment.nvim is a useful plugin for commenting out code and text easily.
+-- tabout.nvim is a useful plugin for tabbing out of brackets, quotes, and other pairs.
+
+-- More generic integrations (lol AI), possibly irrelevant for how I use nvim:
+-- calendar integration (like vim-calendar or vim-agenda)
+-- email integration (like neomutt or mutt)
+-- rss integration (like newsboat or snownews)
+-- weather integration (like wttr.in or wego)
+-- music integration (like cmus or ncmpcpp)
+-- video integration (like mpv or vlc)
+-- image integration (like feh or sxiv)
+-- pdf integration (like zathura or mupdf)
+-- ebook integration (like fbreader or calibre)
+-- document integration (like pandoc or latexmk)
+-- web integration (like lynx or w3m)
+-- social media integration (like twtxt or mastodon)
+-- gaming integration (like nethack or doomrl)
+-- programming integration (like repls or interpreters)
+-- learning integration (like flashcards or spaced repetition)
+-- writing integration (like distraction-free or focus mode)
+-- reading integration (like speed reading or text-to-speech)
+-- communication integration (like chat or video conferencing)
+-- collaboration integration (like pair programming or code review)
+-- automation integration (like task runners or cron jobs)
+-- security integration (like password managers or encryption)
+-- privacy integration (like ad blockers or vpn)
+-- accessibility integration (like screen readers or magnifiers)
+-- productivity integration (like pomodoro or time tracking)
+-- entertainment integration (like streaming or podcasts)
+-- hobby integration (like hobbies or crafts)
+-- lifestyle integration (like fitness or health)
