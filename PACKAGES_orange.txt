@@ -46,7 +46,6 @@ broot
 btop
 btrfs-progs
 cage
-cargo-tauri
 catfish
 catppuccin-cursors-mocha
 cava
@@ -138,7 +137,6 @@ elinks
 elixir
 emacs
 emscripten
-entt
 eslint
 espeak-ng
 evince
@@ -256,13 +254,13 @@ inkscape
 iptables
 ipython
 jabref
-jbig2enc
 jdk-openjdk
 julia
 jupyter-notebook
 jupyterlab
 jupyterlab-widgets
 just
+kdenlive-appimage-pure
 keepassxc
 keychain
 kicad
@@ -349,7 +347,6 @@ nmap
 nmon
 noctalia-shell
 nord-vim
-nord-xfce-terminal
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -459,7 +456,6 @@ python-faker
 python-fastapi
 python-fqdn
 python-github3py
-python-ibapi
 python-icecream
 python-igraph
 python-inflect
@@ -537,7 +533,6 @@ qt6-httpserver
 qt6-languageserver
 qt6-location
 qt6-lottie
-qt6-openapi
 qt6-quick3d
 qt6-quick3dphysics
 qt6-quickeffectmaker
@@ -550,7 +545,6 @@ qt6-speech
 qt6-tasktree
 qt6-virtualkeyboard
 qt6-webview
-qtforkawesome
 r2ghidra
 ranger
 raylib
@@ -566,10 +560,7 @@ rpi-imager
 rstudio-desktop-bin
 rsync
 rubiks
-rust
-rust-analyzer
-rust-src
-rust-wasm
+rustup
 sagemath
 sagemath-doc
 sagetex
@@ -598,7 +589,6 @@ syncthing
 syncthingtray-qt6
 system-config-printer
 systemtap
-ta-lib
 tealdeer
 tenacity
 tensorboard
@@ -779,7 +769,6 @@ w3m
 wasi-libc
 wasi-libc++
 wasm-pack
-webkit2gtk-imgpaste
 wget
 whois
 wiki-tui
@@ -803,7 +792,6 @@ xdg-desktop-portal-wlr
 xdg-desktop-portal-xapp
 xdotool
 xfburn
-xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
