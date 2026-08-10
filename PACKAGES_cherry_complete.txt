@@ -123,6 +123,7 @@ cppcheck
 cppdap
 cppunit
 cpputest
+cpuinfo
 cracklib
 crictl
 critest
@@ -203,7 +204,7 @@ egl-wayland2
 egl-x11
 eglexternalplatform
 eigen
-electron39
+electron43
 elfutils
 elixir
 enchant
@@ -269,6 +270,7 @@ gegl
 geoclue
 geos
 gettext
+gexiv2-common
 gf2x
 gfan
 gflags
@@ -417,6 +419,7 @@ haskell-conduit-extra
 haskell-constraints
 haskell-contravariant
 haskell-cookie
+haskell-cryptohash-md5
 haskell-crypton
 haskell-crypton-connection
 haskell-crypton-socks
@@ -919,6 +922,7 @@ libhandy
 libharu
 libheif
 libhomfly
+libhwasan
 libibus
 libice
 libid3tag
@@ -1248,6 +1252,7 @@ nss
 ntfs-3g
 ntl
 ntp
+ntsync-autoload
 numactl
 nvidia-utils
 obsidian
@@ -1527,6 +1532,7 @@ python-docopt
 python-docutils
 python-dotenv
 python-et-xmlfile
+python-evdev
 python-executing
 python-fastjsonschema
 python-filelock
@@ -1562,6 +1568,7 @@ python-json5
 python-jsonpointer
 python-jsonschema
 python-jsonschema-specifications
+python-jupyter-builder
 python-jupyter-client
 python-jupyter-core
 python-jupyter-events
@@ -1605,7 +1612,6 @@ python-pexpect
 python-pickleshare
 python-pillow
 python-pip
-python-pkg_resources
 python-pkgconfig
 python-platformdirs
 python-plotly
@@ -1637,6 +1643,7 @@ python-python-discovery
 python-pytokens
 python-pytorch
 python-pytz
+python-pyudev
 python-pyxdg
 python-pyzmq
 python-referencing
@@ -1696,6 +1703,7 @@ python-websocket-client
 python-wheel
 python-wxpython
 python-xattr
+python-xlib
 python-xlrd
 python-xmltodict
 python-yaml
@@ -1751,7 +1759,6 @@ qt6-webchannel
 qt6-webengine
 qt6-websockets
 qt6-webview
-qtforkawesome
 qtforkawesome-qt6
 qtutilities-qt6
 r
@@ -1780,8 +1787,7 @@ rubberband
 rubiks
 run-parts
 runc
-rust
-rust-wasm
+rustup
 sage-data-elliptic_curves
 sage-data-graphs
 sage-data-polytopes_db
@@ -1813,6 +1819,7 @@ slurp
 smbclient
 snappy
 sndio
+solaar
 soplex
 sord
 sound-theme-freedesktop
@@ -2054,7 +2061,6 @@ vulkan-tools
 vulkan-utility-libraries
 vulkan-validation-layers
 w3m
-wasm-component-ld
 wasm-pack
 wayland
 wayland-protocols

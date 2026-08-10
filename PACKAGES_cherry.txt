@@ -328,7 +328,6 @@ qt6-virtualkeyboard
 qt6-wayland
 qt6-websockets
 qt6-webview
-qtforkawesome
 r2ghidra
 radare2
 ranger
@@ -339,8 +338,7 @@ ripgrep-all
 rpcbind
 rstudio-desktop-bin
 rsync
-rust
-rust-wasm
+rustup
 sagemath
 scip
 scrcpy
@@ -348,6 +346,7 @@ sd
 sdl_ttf
 seahorse
 sfml
+solaar
 sshfs
 starship
 steam
